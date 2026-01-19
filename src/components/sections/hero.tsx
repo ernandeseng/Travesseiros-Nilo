@@ -5,6 +5,7 @@ import { heroBadges } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { Smartphone } from "lucide-react";
 
 const Feather = ({ style }: { style: React.CSSProperties }) => (
   <div className="absolute top-[-10vh]" style={style}>
@@ -91,10 +92,10 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg bg-white text-primary hover:bg-white/90">
-            <a href="#produtos">Ver Catálogo Completo</a>
-          </Button>
-          <Button size="lg" variant="outline" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg border-2 border-white text-white hover:bg-white/10">
-            <a href="#contato">Fale com um Consultor</a>
+            <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
+              <Smartphone className="mr-2 h-5 w-5" />
+              Fale com um Consultor
+            </a>
           </Button>
         </div>
         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
