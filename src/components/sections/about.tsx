@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function About() {
   const timeline = [
     { year: "2022", event: "Fundação e início com 12 rolos de tecido." },
@@ -6,20 +8,28 @@ export function About() {
   ];
 
   return (
-    <section id="sobre" className="py-16 lg:py-24 bg-background">
-      <div className="container mx-auto">
+    <section id="sobre" className="relative py-16 lg:py-24 text-white">
+       <Image
+        src="https://i.imgur.com/50e3CL0.jpeg"
+        alt="Colagem de fotos da fábrica Nilo Travesseiros"
+        fill
+        className="object-cover"
+      />
+      <div className="absolute inset-0 bg-black/70" />
+
+      <div className="container relative z-10 mx-auto">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-secondary mb-4">
+          <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-white mb-4">
             Nossa História
           </h2>
-          <p className="text-muted-foreground mb-6 text-balance">
+          <p className="text-white/80 mb-6 text-balance">
             Fundada em setembro de 2022 por Danilo José Gomes de Oliveira, a Nilo Travesseiros nasceu de um sonho e 12 rolos de tecido. Com dedicação, visão e muito trabalho, rapidamente crescemos e nos tornamos uma referência em conforto, qualidade e confiança em todo o Brasil.
           </p>
           
           <div className="space-y-6">
-              <h3 className="text-xl font-headline font-bold text-secondary mb-4">Evolução e Crescimento</h3>
+              <h3 className="text-xl font-headline font-bold text-white mb-4">Evolução e Crescimento</h3>
               <div className="relative">
-                  <div className="absolute left-2 top-0 h-full w-0.5 bg-primary/20"></div>
+                  <div className="absolute left-2 top-0 h-full w-0.5 bg-primary/50"></div>
                   {timeline.map((item, index) => (
                       <div key={index} className="flex items-start mb-6 pl-8 relative">
                           <div className="absolute left-0 top-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-primary">
@@ -27,7 +37,7 @@ export function About() {
                           </div>
                           <div>
                               <p className="font-headline font-bold text-lg text-primary">{item.year}</p>
-                              <p className="text-muted-foreground">{item.event}</p>
+                              <p className="text-white/80">{item.event}</p>
                           </div>
                       </div>
                   ))}
