@@ -15,16 +15,15 @@ export function About() {
         fill
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-black/70" />
 
       <div className="container relative z-10 mx-auto py-16 lg:py-24">
         <div className="mx-auto max-w-4xl">
-          <p className="text-white/80 mb-6 text-balance">
+          <p className="text-white mb-6 text-balance drop-shadow-md">
             Fundada em setembro de 2022 por Danilo José Gomes de Oliveira, a Nilo Travesseiros nasceu de um sonho e 12 rolos de tecido. Com dedicação, visão e muito trabalho, rapidamente crescemos e nos tornamos uma referência em conforto, qualidade e confiança em todo o Brasil.
           </p>
           
           <div className="space-y-6">
-              <h3 className="text-xl font-headline font-bold text-white mb-4">Evolução e Crescimento</h3>
+              <h3 className="text-xl font-headline font-bold text-white mb-4 drop-shadow-md">Evolução e Crescimento</h3>
               <div className="relative">
                   <div className="absolute left-2 top-0 h-full w-0.5 bg-primary/50"></div>
                   {timeline.map((item, index) => (
@@ -33,8 +32,8 @@ export function About() {
                               <div className="h-2 w-2 rounded-full bg-white"></div>
                           </div>
                           <div>
-                              <p className="font-headline font-bold text-lg text-primary">{item.year}</p>
-                              <p className="text-white/80">{item.event}</p>
+                              <p className="font-headline font-bold text-lg text-primary drop-shadow-sm">{item.year}</p>
+                              <p className="text-white drop-shadow-md">{item.event}</p>
                           </div>
                       </div>
                   ))}
