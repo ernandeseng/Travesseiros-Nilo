@@ -8,7 +8,7 @@ export function About() {
   ];
 
   return (
-    <section id="sobre" className="relative py-16 lg:py-24 text-white">
+    <section id="sobre" className="relative text-white">
        <Image
         src="https://i.imgur.com/50e3CL0.jpeg"
         alt="Colagem de fotos da fábrica Nilo Travesseiros"
@@ -17,11 +17,8 @@ export function About() {
       />
       <div className="absolute inset-0 bg-black/70" />
 
-      <div className="container relative z-10 mx-auto">
+      <div className="container relative z-10 mx-auto py-16 lg:py-24">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-white mb-4">
-            Nossa História
-          </h2>
           <p className="text-white/80 mb-6 text-balance">
             Fundada em setembro de 2022 por Danilo José Gomes de Oliveira, a Nilo Travesseiros nasceu de um sonho e 12 rolos de tecido. Com dedicação, visão e muito trabalho, rapidamente crescemos e nos tornamos uma referência em conforto, qualidade e confiança em todo o Brasil.
           </p>

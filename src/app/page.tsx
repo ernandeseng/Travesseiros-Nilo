@@ -16,7 +16,11 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <div className="h-8 bg-muted" />
+        <div className="bg-muted py-12 text-center">
+          <h2 className="text-4xl font-serif font-bold italic text-secondary md:text-5xl lg:text-6xl">
+            Nossa História
+          </h2>
+        </div>
         <About />
         <MissionVisionValues />
         <Differentiators />
