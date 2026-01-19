@@ -34,7 +34,7 @@ export function Testimonials() {
                       <CardContent className="p-8 flex flex-col items-center justify-center text-center">
                          <div className="relative mb-4">
                             <span className="absolute -top-2 -left-4 text-8xl text-primary/10 font-serif">“</span>
-                            <p className="text-lg italic text-secondary z-10 relative text-balance">
+                            <p className="font-serif text-lg italic text-secondary z-10 relative text-balance">
                                 {testimonial.testimonial}
                             </p>
                          </div>

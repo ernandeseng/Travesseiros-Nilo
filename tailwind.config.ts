@@ -10,8 +10,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
+        body: ['Montserrat', 'sans-serif'],
         headline: ['Montserrat', 'sans-serif'],
+        display: ['"Good Vibrations"', 'cursive'],
+        serif: ['"Libre Baskerville"', 'serif'],
         code: ['monospace'],
       },
       colors: {

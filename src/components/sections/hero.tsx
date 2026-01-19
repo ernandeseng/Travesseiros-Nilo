@@ -83,7 +83,7 @@ export function Hero() {
       </div>
 
       <div className="container relative z-10 mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-headline font-extrabold mb-4 text-balance drop-shadow-md">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold italic mb-4 text-balance drop-shadow-md">
           Conforto que Transforma Noites em Descanso Perfeito
         </h1>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-white/90 text-balance drop-shadow-sm">
