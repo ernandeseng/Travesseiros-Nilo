@@ -26,12 +26,9 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg bg-white text-primary hover:bg-white/90">
-            <a href="#contato">Fale com um Consultor</a>
-          </Button>
-          <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
             <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
               <Smartphone className="mr-2 h-5 w-5" />
-              WhatsApp Direto
+              Fale com um Consultor
             </a>
           </Button>
         </div>
