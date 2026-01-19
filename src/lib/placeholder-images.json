@@ -1,3 +1,94 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-pillow-1",
+      "description": "A fluffy white pillow",
+      "imageUrl": "https://images.unsplash.com/photo-1629949008790-ca50382f7f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMHBpbGxvd3xlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white pillow"
+    },
+    {
+      "id": "hero-pillow-2",
+      "description": "A close-up of a soft white pillow",
+      "imageUrl": "https://images.unsplash.com/photo-1629949008790-ca50382f7f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMHBpbGxvd3xlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white pillow"
+    },
+    {
+      "id": "hero-pillow-3",
+      "description": "A single white pillow on a clean background",
+      "imageUrl": "https://images.unsplash.com/photo-1629949008195-c15c25c5e9e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3aGl0ZSUyMHBpbGxvd3xlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white pillow"
+    },
+    {
+      "id": "factory-image",
+      "description": "Inside of a textile factory",
+      "imageUrl": "https://images.unsplash.com/photo-1655122878062-a9e885391a1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZXh0aWxlJTIwZmFjdG9yeXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "textile factory"
+    },
+    {
+      "id": "product1",
+      "description": "Quilted cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "product2",
+      "description": "Suede baguette cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "product3",
+      "description": "Rustic cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1629949008790-ca50382f7f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "product4",
+      "description": "Square suede cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1629949008195-c15c25c5e9e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "product5",
+      "description": "Custom sports team cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "product6",
+      "description": "Custom kids cushion",
+      "imageUrl": "https://images.unsplash.com/photo-1654325633344-337ce2bac195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3VzaGlvbiUyMHBpbGxvd3xlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion pillow"
+    },
+    {
+      "id": "testimonial1",
+      "description": "Portrait of Ana Silva",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial2",
+      "description": "Portrait of Carlos Pereira",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY4Nzg2NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial3",
+      "description": "Portrait of Mariana Costa",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial4",
+      "description": "Portrait of João Ferreira",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njg3ODY3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "final-cta-bg",
+      "description": "A pile of comfortable pillows",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pillows pile"
+    }
+  ]
 }
