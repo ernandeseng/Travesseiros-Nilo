@@ -15,20 +15,30 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <Header />
       <main className="flex-1">
-        <Hero />
-        <div className="bg-secondary py-12 text-center">
-          <h2 className="text-4xl font-serif font-bold italic text-secondary-foreground md:text-5xl lg:text-6xl">
-            Nossa História
-          </h2>
+        <div data-theme="dark">
+          <Hero />
+          <div className="bg-secondary py-12 text-center">
+            <h2 className="text-4xl font-serif font-bold italic text-white md:text-5xl lg:text-6xl">
+              Nossa História
+            </h2>
+          </div>
+          <About />
+          <MissionVisionValues />
         </div>
-        <About />
-        <MissionVisionValues />
-        <Differentiators />
-        <Catalog />
-        <Achievements />
-        <Testimonials />
-        <Contact />
-        <FinalCta />
+        <div data-theme="light">
+          <Differentiators />
+          <Catalog />
+        </div>
+        <div data-theme="dark">
+          <Achievements />
+        </div>
+        <div data-theme="light">
+          <Testimonials />
+          <Contact />
+        </div>
+        <div data-theme="dark">
+          <FinalCta />
+        </div>
       </main>
       <Footer />
     </div>

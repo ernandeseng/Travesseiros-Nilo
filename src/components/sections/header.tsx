@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Logo } from '@/components/logo';
@@ -16,12 +16,42 @@ import {
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [headerTheme, setHeaderTheme] = useState('dark');
+
+  useEffect(() => {
+    const sections = document.querySelectorAll('[data-theme]');
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const theme = entry.target.getAttribute('data-theme');
+          if (theme) {
+            setHeaderTheme(theme);
+          }
+        }
+      })
+    }, {
+      rootMargin: '-80px 0px -90% 0px',
+    });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+
+    return () => {
+      sections.forEach(section => {
+        observer.unobserve(section);
+      });
+    };
+
+  }, []);
 
   return (
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        'bg-transparent'
+        headerTheme === 'light' ? 'bg-secondary shadow-md' : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between">
