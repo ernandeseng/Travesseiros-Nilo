@@ -5,7 +5,7 @@ export function Logo({ className, priority }: { className?: string, priority?: b
   return (
     <a href="/" className={cn("", className)}>
       <Image
-        src="https://i.imgur.com/dgRBifc.png"
+        src="https://i.imgur.com/MjCcWAQ.png"
         alt="Nilo Travesseiros Logo"
         width={180}
         height={40}
