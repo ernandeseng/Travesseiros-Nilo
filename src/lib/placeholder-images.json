@@ -89,6 +89,30 @@
       "description": "A pile of comfortable pillows",
       "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pillows pile"
+    },
+    {
+      "id": "pet-bed-lisa-blue",
+      "description": "Blue plain pet bed",
+      "imageUrl": "https://images.unsplash.com/photo-1600369671236-e74521d4b6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "pet-bed-lisa-beige",
+      "description": "Beige plain pet bed",
+      "imageUrl": "https://images.unsplash.com/photo-1600369671270-e07f80b6ae49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGV0JTIwYmVkfGVufDB8fHx8MTc2ODg2ODMzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "pet-bed-estampada-pink",
+      "description": "Pink patterned pet bed",
+      "imageUrl": "https://images.unsplash.com/photo-1621682877540-edd7c9dae368?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "pet-bed-estampada-blue",
+      "description": "Blue patterned pet bed",
+      "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pet bed"
     }
   ]
 }

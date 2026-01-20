@@ -36,14 +36,35 @@ export const differentiators = [
     },
 ];
 
-export const products = [
-    { id: "035", name: "Almofada Matelada", imageId: 'product1', badge: 'FARDO/60' },
-    { id: "013", name: "Almofada Baguete Suede", imageId: 'product2', badge: 'FARDO/60' },
-    { id: "014", name: "Almofada Rústica", imageId: 'product3', badge: 'FARDO/60' },
-    { id: "015", name: "Almofada Suede 45x45", imageId: 'product4', badge: 'FARDO/60' },
-    { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5', badge: 'FARDO/60' },
-    { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6', badge: 'FARDO/60' },
+export const catalogCategories = [
+    { id: 'almofadas', name: 'Almofadas' },
+    { id: 'cama-pet', name: 'Cama Pet' },
+    { id: 'capas', name: 'Capas para Almofada' },
+    { id: 'travesseiros', name: 'Travesseiros' },
+    { id: 'refil', name: 'Refil' },
+    { id: 'fibra', name: 'Fibra' },
 ];
+
+export const productsByCategory = {
+    almofadas: [
+        { id: "035", name: "Almofada Matelada", imageId: 'product1', badge: 'FARDO/60' },
+        { id: "013", name: "Almofada Baguete Suede", imageId: 'product2', badge: 'FARDO/60' },
+        { id: "014", name: "Almofada Rústica", imageId: 'product3', badge: 'FARDO/60' },
+        { id: "015", name: "Almofada Suede 45x45", imageId: 'product4', badge: 'FARDO/60' },
+        { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5', badge: 'FARDO/60' },
+        { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6', badge: 'FARDO/60' },
+    ],
+    'cama-pet': [
+        { id: "019", name: "Cama Pet Lisa 50x50", imageId: 'pet-bed-lisa-blue', badge: 'FARDO/50' },
+        { id: "032", name: "Cama Pet Lisa 50x60", imageId: 'pet-bed-lisa-beige', badge: 'FARDO/50' },
+        { id: "020", name: "Cama Pet Estampada 50x50", imageId: 'pet-bed-estampada-pink', badge: 'FARDO/50' },
+        { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
+    ],
+    capas: [],
+    travesseiros: [],
+    refil: [],
+    fibra: [],
+};
 
 export const testimonials = [
     {
@@ -56,18 +77,21 @@ export const testimonials = [
     {
         name: "Carlos Pereira",
         city: "Belo Horizonte, MG",
+        rating: 5,
         testimonial: "Desde que comecei a trabalhar com a Nilo, minhas vendas aumentaram. Produtos excelentes e com preço justo. Recomendo!",
         imageId: 'testimonial2',
     },
     {
         name: "Mariana Costa",
         city: "Salvador, BA",
+        rating: 5,
         testimonial: "Estou muito satisfeita com a parceria. A flexibilidade nos pedidos e a frota própria fazem toda a diferença na logística.",
         imageId: 'testimonial3',
     },
     {
         name: "João Ferreira",
         city: "Curitiba, PR",
+        rating: 5,
         testimonial: "Comprometimento e qualidade definem a Nilo Travesseiros. Uma empresa que realmente valoriza o cliente.",
         imageId: 'testimonial4',
     }
