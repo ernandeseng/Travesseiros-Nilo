@@ -24,7 +24,7 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-black/60" />
 
-      <div className="container relative z-10 mx-auto px-4 text-center md:px-6 translate-y-0.5">
+      <div className="container relative z-10 mx-auto px-4 text-center md:px-6 translate-y-1">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold italic mb-4 text-balance drop-shadow-md">
           Conforto que Transforma Noites em Descanso Perfeito
         </h1>
