@@ -10,7 +10,7 @@ export function Catalog() {
   return (
     <section id="produtos" className="py-16 lg:py-24 bg-muted">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-secondary mb-4">
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-4">
           Nosso Catálogo de Almofadas
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-12 text-balance">
@@ -45,7 +45,7 @@ export function Catalog() {
                       </CardHeader>
                       <CardContent className="p-4 flex-grow">
                         <Badge variant="secondary" className="mb-2">{`Cód: ${product.id}`}</Badge>
-                        <CardTitle className="text-lg font-bold font-headline text-secondary">{product.name}</CardTitle>
+                        <CardTitle className="text-lg font-bold font-serif italic text-secondary">{product.name}</CardTitle>
                       </CardContent>
                       <CardFooter className="p-4 flex justify-between items-center">
                         <Badge variant="outline">{product.badge}</Badge>

@@ -20,7 +20,7 @@ export function FinalCta() {
       <div className="absolute inset-0 bg-gradient-to-t from-red-800/80 via-red-600/90 to-red-700/95"></div>
       
       <div className="container relative z-10 mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-headline font-extrabold mb-4 text-balance">
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic mb-4 text-balance">
           Pronto para Oferecer Mais Conforto aos Seus Clientes?
         </h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-white/90 text-balance">

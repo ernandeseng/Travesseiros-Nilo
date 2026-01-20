@@ -5,7 +5,7 @@ export function Differentiators() {
   return (
     <section id="diferenciais" className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-secondary mb-4">
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-4">
           Nossos Diferenciais
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-12 text-balance">
@@ -19,7 +19,7 @@ export function Differentiators() {
                 <div className="bg-primary/10 p-4 rounded-full mb-4">
                    <item.icon className="h-10 w-10 text-primary transition-transform duration-300 group-hover:scale-110" />
                 </div>
-                <CardTitle className="text-xl font-headline font-bold text-secondary">{item.title}</CardTitle>
+                <CardTitle className="text-xl font-serif font-bold italic text-secondary">{item.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-balance">{item.description}</p>

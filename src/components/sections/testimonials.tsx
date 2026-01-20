@@ -10,7 +10,7 @@ export function Testimonials() {
   return (
     <section id="depoimentos" className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-secondary mb-4">
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-4">
           O que Nossos Clientes Dizem
         </h2>
         <p className="text-muted-foreground max-w-2xl mx-auto mb-12 text-balance">
@@ -46,7 +46,7 @@ export function Testimonials() {
                             </Avatar>
                           )}
                           <div className="text-left">
-                            <p className="font-bold font-headline text-secondary">{testimonial.name}</p>
+                            <p className="font-bold font-serif italic text-secondary">{testimonial.name}</p>
                             <p className="text-sm text-muted-foreground">{testimonial.city}</p>
                              <StarRating rating={testimonial.rating} className="mt-1"/>
                           </div>

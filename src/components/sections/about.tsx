@@ -23,7 +23,7 @@ export function About() {
           </p>
           
           <div className="space-y-6">
-              <h3 className="text-2xl font-headline font-bold text-white mb-4 drop-shadow-lg">Evolução e Crescimento</h3>
+              <h3 className="text-2xl font-serif font-bold italic text-white mb-4 drop-shadow-lg">Evolução e Crescimento</h3>
               <div className="relative">
                   <div className="absolute left-2 top-0 h-full w-0.5 bg-primary/50"></div>
                   {timeline.map((item, index) => (
@@ -32,7 +32,7 @@ export function About() {
                               <div className="h-2 w-2 rounded-full bg-white"></div>
                           </div>
                           <div>
-                              <p className="font-headline font-bold text-xl text-primary drop-shadow-md">{item.year}</p>
+                              <p className="font-serif font-bold italic text-xl text-primary drop-shadow-md">{item.year}</p>
                               <p className="text-lg text-white drop-shadow-lg">{item.event}</p>
                           </div>
                       </div>

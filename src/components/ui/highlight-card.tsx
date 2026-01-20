@@ -30,7 +30,7 @@ export const HighlightCard = ({ title, description, icon }: HighlightCardProps) 
               </div>
             </div>
           </div>
-          <h3 className="mb-4 text-3xl font-bold bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent transform group-hover:scale-105 transition-transform duration-300">
+          <h3 className="mb-4 text-3xl font-bold font-serif italic bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent transform group-hover:scale-105 transition-transform duration-300">
             {title}
           </h3>
           <div className="space-y-1 max-w-sm">

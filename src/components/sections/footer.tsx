@@ -25,7 +25,7 @@ export function Footer() {
 
           {/* Coluna 2: Links Rápidos */}
           <div>
-            <h4 className="font-headline font-bold text-lg mb-4 text-white">
+            <h4 className="font-serif font-bold italic text-lg mb-4 text-white">
               Links Rápidos
             </h4>
             <ul className="space-y-2">
@@ -44,7 +44,7 @@ export function Footer() {
 
           {/* Coluna 3: Contato */}
           <div>
-            <h4 className="font-headline font-bold text-lg mb-4 text-white">
+            <h4 className="font-serif font-bold italic text-lg mb-4 text-white">
               Contato
             </h4>
             <ul className="space-y-2 text-sm text-white/70">
@@ -56,7 +56,7 @@ export function Footer() {
 
           {/* Coluna 4: Redes Sociais */}
           <div>
-            <h4 className="font-headline font-bold text-lg mb-4 text-white">
+            <h4 className="font-serif font-bold italic text-lg mb-4 text-white">
               Siga-nos
             </h4>
             <div className="flex space-x-4">

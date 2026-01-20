@@ -50,7 +50,7 @@ export function Contact() {
     <section id="contato" className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-headline font-extrabold text-secondary mb-4">
+            <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-4">
             Fale Conosco
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-balance">
@@ -61,7 +61,7 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
             <Card className="shadow-lg">
                 <CardHeader>
-                    <CardTitle className="flex items-center gap-2">
+                    <CardTitle className="flex items-center gap-2 font-serif font-bold italic">
                         <MessageSquare className="text-primary"/>
                         Envie uma Mensagem
                     </CardTitle>
@@ -136,7 +136,7 @@ export function Contact() {
             <div className="space-y-8">
                 <Card>
                     <CardHeader>
-                        <CardTitle className="flex items-center gap-2">
+                        <CardTitle className="flex items-center gap-2 font-serif font-bold italic">
                             <Phone className="text-primary"/>
                             Outros Canais
                         </CardTitle>
@@ -149,7 +149,7 @@ export function Contact() {
                 </Card>
                  <Card>
                     <CardHeader>
-                        <CardTitle className="flex items-center gap-2">
+                        <CardTitle className="flex items-center gap-2 font-serif font-bold italic">
                             Horário de Atendimento
                         </CardTitle>
                     </CardHeader>
