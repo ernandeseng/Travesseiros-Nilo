@@ -25,7 +25,7 @@ export function MissionVisionValues() {
     <section id="missao" className="relative py-12 md:py-20 text-white">
       {/* Mobile Image */}
       <Image
-        src="https://i.imgur.com/dqrV9uO.jpeg"
+        src="https://i.imgur.com/YApnGNp.png"
         alt="Fundo abstrato com textura de tecido para mobile"
         fill
         className="object-cover md:hidden"
