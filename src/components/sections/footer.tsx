@@ -96,6 +96,9 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Nilo Travesseiros. Todos os
             direitos reservados.
           </p>
+          <p className="mt-2">
+            Desenvolvido com ❤️ por <a href="https://rochadigital.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">Rocha Digital</a>
+          </p>
         </div>
       </div>
     </footer>
