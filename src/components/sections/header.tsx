@@ -55,7 +55,7 @@ export function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between">
-        <Logo className="text-white" />
+        <Logo />
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
@@ -85,7 +85,7 @@ export function Header() {
             <SheetContent side="right" className="bg-secondary text-white border-l-0">
                <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center p-4 border-b border-white/10">
-                  <Logo className="text-white" />
+                  <Logo />
                   <SheetTrigger asChild>
                      <Button variant="ghost" size="icon">
                        <X />

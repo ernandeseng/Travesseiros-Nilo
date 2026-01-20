@@ -1,10 +1,17 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export function Logo({ className }: { className?: string }) {
   return (
-    <a href="/" className={cn("flex items-baseline gap-2 text-2xl font-headline text-primary-foreground no-underline md:text-3xl", className)}>
-      <span className="font-extrabold text-white">NILO</span>
-      <span className="font-display text-white text-4xl">Travesseiros</span>
+    <a href="/" className={cn("flex items-center", className)}>
+      <Image
+        src="https://i.imgur.com/MjCcWAQ.png"
+        alt="Nilo Travesseiros Logo"
+        width={180}
+        height={40}
+        priority
+        className="object-contain"
+      />
     </a>
   );
 }

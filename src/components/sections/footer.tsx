@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Coluna 1: Logo e Descrição */}
           <div className="space-y-4">
-            <Logo className="text-white" />
+            <Logo />
             <p className="text-sm text-white/70 max-w-xs">
               Conforto e qualidade que transformam noites. Produção 100%
               nacional.
