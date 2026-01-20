@@ -27,7 +27,7 @@ export function FinalCta() {
           Entre em contato e solicite um orçamento personalizado. Nossa equipe está pronta para te atender!
         </p>
         <div className="flex justify-center">
-          <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
+          <Button size="lg" variant="accent" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
             <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
               <Smartphone className="mr-2 h-5 w-5" />
               Solicitar Orçamento pelo WhatsApp
