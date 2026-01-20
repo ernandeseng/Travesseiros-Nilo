@@ -16,8 +16,8 @@ export default function Home() {
       <main className="flex-1">
         <div data-theme="dark">
           <Hero />
-          <div className="bg-secondary py-12 text-center">
-            <h2 className="text-4xl font-serif font-bold italic text-white md:text-5xl lg:text-6xl">
+          <div className="bg-secondary py-12 px-4 text-center">
+            <h2 className="text-3xl font-serif font-bold italic text-white sm:text-4xl md:text-5xl">
               Nossa História
             </h2>
           </div>

@@ -10,19 +10,19 @@ export function Achievements() {
   ];
 
   return (
-    <section id="numeros" className="py-16 lg:py-20 bg-primary text-primary-foreground">
-      <div className="container mx-auto">
+    <section id="numeros" className="py-12 md:py-20 bg-primary text-primary-foreground">
+      <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center">
-              <stat.icon className="h-10 w-10 mb-3 text-white/80" />
-              <div className="text-4xl lg:text-5xl font-bold font-headline">
+              <stat.icon className="h-8 w-8 sm:h-10 sm:w-10 mb-2 sm:mb-3 text-white/80" />
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline">
                 {stat.label.includes("Clientes") && "+"}
                 <AnimatedCounter target={stat.value} />
                 {stat.label.includes("Produtos") && "+"}
                 {stat.isPercentage && "%"}
               </div>
-              <p className="text-sm lg:text-base text-white/80 mt-1">{stat.label}</p>
+              <p className="text-xs sm:text-sm lg:text-base text-white/80 mt-1">{stat.label}</p>
             </div>
           ))}
         </div>

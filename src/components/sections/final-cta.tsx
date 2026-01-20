@@ -7,7 +7,7 @@ export function FinalCta() {
   const bgImage = PlaceHolderImages.find((p) => p.id === 'final-cta-bg');
 
   return (
-    <section id="contato" className="relative py-20 lg:py-32 text-center text-white overflow-hidden">
+    <section id="contato" className="relative py-16 md:py-24 lg:py-32 text-center text-white overflow-hidden">
       {bgImage && (
         <Image
           src={bgImage.imageUrl}
@@ -19,11 +19,11 @@ export function FinalCta() {
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-red-800/80 via-red-600/90 to-red-700/95"></div>
       
-      <div className="container relative z-10 mx-auto">
-        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic mb-4 text-balance">
+      <div className="container relative z-10 mx-auto px-4 md:px-6">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold italic mb-4 text-balance">
           Pronto para Oferecer Mais Conforto aos Seus Clientes?
         </h2>
-        <p className="max-w-2xl mx-auto mb-8 text-lg text-white/90 text-balance">
+        <p className="max-w-2xl mx-auto mb-8 text-base md:text-lg text-white/90 text-balance">
           Entre em contato e solicite um orçamento personalizado. Nossa equipe está pronta para te atender!
         </p>
         <div className="flex justify-center">

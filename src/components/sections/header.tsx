@@ -31,7 +31,7 @@ export function Header() {
         }
       })
     }, {
-      rootMargin: '-80px 0px -90% 0px',
+      rootMargin: '-64px 0px -90% 0px',
     });
 
     sections.forEach(section => {
@@ -53,7 +53,7 @@ export function Header() {
         headerTheme === 'light' ? 'bg-secondary shadow-md' : 'bg-transparent'
       )}
     >
-      <div className="container mx-auto flex h-20 items-center justify-end">
+      <div className="container mx-auto flex h-16 items-center justify-end px-4 md:px-6">
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">

@@ -9,10 +9,10 @@ export function Footer() {
       className="bg-secondary text-secondary-foreground py-12"
       data-theme="dark"
     >
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           {/* Coluna 1: Logo e Descrição */}
-          <div className="space-y-4">
+          <div className="flex flex-col items-center space-y-4 md:items-start">
             <Logo />
             <p className="text-sm text-white/70 max-w-xs">
               Conforto e qualidade que transformam noites. Produção 100%
@@ -59,7 +59,7 @@ export function Footer() {
             <h4 className="font-serif font-bold italic text-lg mb-4 text-white">
               Siga-nos
             </h4>
-            <div className="flex space-x-4">
+            <div className="flex justify-center space-x-4 md:justify-start">
               <Button
                 variant="ghost"
                 size="icon"

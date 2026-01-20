@@ -22,15 +22,15 @@ export function MissionVisionValues() {
   ];
 
   return (
-    <section id="missao" className="relative py-16 lg:py-24 text-white">
+    <section id="missao" className="relative py-12 md:py-20 text-white">
        <Image
         src="https://i.imgur.com/UVm889Q.jpeg"
         alt="Fundo abstrato com textura de tecido"
         fill
         className="object-cover"
       />
-      <div className="container relative z-10 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
+      <div className="container relative z-10 mx-auto px-4 md:px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 place-items-center">
           {items.map((item, index) => (
             <HighlightCard
               key={index}

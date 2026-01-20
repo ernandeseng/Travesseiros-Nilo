@@ -22,18 +22,18 @@ import { ShoppingBag } from "lucide-react";
 
 export function Catalog() {
   return (
-    <section id="produtos" className="py-16 lg:py-24 bg-muted">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-4">
+    <section id="produtos" className="py-12 md:py-20 bg-muted">
+      <div className="container mx-auto px-4 text-center md:px-6">
+        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-2">
           Nosso Catálogo
         </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto mb-12 text-balance">
+        <p className="text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12 text-balance">
           Conheça nossas soluções em conforto que vão encantar seus clientes.
           Temos uma vasta gama de produtos para atender às suas necessidades.
         </p>
 
         <Tabs defaultValue="almofadas" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-12">
+          <TabsList className="grid w-full grid-cols-3 sm:grid-cols-3 lg:grid-cols-6 gap-1 sm:gap-2 mb-8 md:mb-12">
             {catalogCategories.map((category) => (
               <TabsTrigger key={category.id} value={category.id}>
                 {category.name}
@@ -85,7 +85,7 @@ export function Catalog() {
                                     variant="secondary"
                                     className="mb-2"
                                   >{`Cód: ${product.id}`}</Badge>
-                                  <CardTitle className="text-lg font-bold font-serif italic text-secondary">
+                                  <CardTitle className="text-base md:text-lg font-bold font-serif italic text-secondary">
                                     {product.name}
                                   </CardTitle>
                                 </CardContent>
