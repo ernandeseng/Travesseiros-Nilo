@@ -21,6 +21,7 @@ export function About() {
         fill
         className="object-cover hidden md:block"
       />
+      <div className="absolute inset-0 bg-black/50" />
 
       <div className="container relative z-10 mx-auto px-4 py-12 md:px-6 md:py-20">
         <div className="mx-auto max-w-4xl">
