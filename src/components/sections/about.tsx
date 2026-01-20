@@ -9,11 +9,17 @@ export function About() {
 
   return (
     <section id="sobre" className="relative text-white">
-       <Image
-        src="https://i.imgur.com/50e3CL0.jpeg"
-        alt="Colagem de fotos da fábrica Nilo Travesseiros"
+      <Image
+        src="https://i.imgur.com/1bcahj2.jpeg"
+        alt="Colagem de fotos da fábrica Nilo Travesseiros em formato mobile"
         fill
-        className="object-cover"
+        className="object-cover md:hidden"
+      />
+      <Image
+        src="https://i.imgur.com/50e3CL0.jpeg"
+        alt="Colagem de fotos da fábrica Nilo Travesseiros em formato desktop"
+        fill
+        className="object-cover hidden md:block"
       />
 
       <div className="container relative z-10 mx-auto px-4 py-12 md:px-6 md:py-20">
