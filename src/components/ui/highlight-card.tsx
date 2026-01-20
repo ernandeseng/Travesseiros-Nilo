@@ -12,7 +12,7 @@ interface HighlightCardProps {
 export const HighlightCard = ({ title, description, icon }: HighlightCardProps) => {
   return (
     <div className="group cursor-pointer transform transition-all duration-500 hover:scale-105 hover:-rotate-1">
-      <Card className="text-white rounded-2xl border border-white/10 bg-gradient-to-br from-[#010101] via-[#090909] to-[#010101] shadow-2xl relative backdrop-blur-xl overflow-hidden hover:border-white/25 hover:shadow-white/5 hover:shadow-3xl w-full max-w-[350px] mx-auto">
+      <Card className="text-white rounded-2xl border border-white/10 bg-gradient-to-br from-black/80 to-black/60 shadow-2xl relative backdrop-blur-xl overflow-hidden hover:border-white/25 hover:shadow-white/5 hover:shadow-3xl w-full max-w-[350px] mx-auto">
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-white/10 opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
           <div className="absolute -bottom-20 -left-20 w-48 h-48 rounded-full bg-gradient-to-tr from-white/10 to-transparent blur-3xl opacity-30 group-hover:opacity-50 transform group-hover:scale-110 transition-all duration-700 animate-bounce"></div>
@@ -30,7 +30,7 @@ export const HighlightCard = ({ title, description, icon }: HighlightCardProps) 
               </div>
             </div>
           </div>
-          <h3 className="mb-4 text-3xl font-bold bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent animate-pulse transform group-hover:scale-105 transition-transform duration-300">
+          <h3 className="mb-4 text-3xl font-bold bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent transform group-hover:scale-105 transition-transform duration-300">
             {title}
           </h3>
           <div className="space-y-1 max-w-sm">
