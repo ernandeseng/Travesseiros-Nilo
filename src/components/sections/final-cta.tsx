@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Smartphone, WalletCards } from 'lucide-react';
+import { Smartphone } from 'lucide-react';
 
 export function FinalCta() {
   const bgImage = PlaceHolderImages.find((p) => p.id === 'final-cta-bg');
@@ -26,22 +26,13 @@ export function FinalCta() {
         <p className="max-w-2xl mx-auto mb-8 text-lg text-white/90 text-balance">
           Entre em contato e solicite um orçamento personalizado. Nossa equipe está pronta para te atender!
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
           <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
             <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
-              Solicitar Orçamento
-            </a>
-          </Button>
-          <Button size="lg" variant="accent" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
-            <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
               <Smartphone className="mr-2 h-5 w-5" />
-              WhatsApp Direto
+              Solicitar Orçamento pelo WhatsApp
             </a>
           </Button>
-        </div>
-        <div className="mt-12 flex justify-center items-center gap-4 text-sm text-white/80">
-            <WalletCards className="h-5 w-5"/>
-            <span>Condições de pagamento flexíveis</span>
         </div>
       </div>
     </section>
