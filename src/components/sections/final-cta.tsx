@@ -7,7 +7,7 @@ export function FinalCta() {
   const bgImage = PlaceHolderImages.find((p) => p.id === 'final-cta-bg');
 
   return (
-    <section className="relative py-20 lg:py-32 text-center text-white overflow-hidden">
+    <section id="contato" className="relative py-20 lg:py-32 text-center text-white overflow-hidden">
       {bgImage && (
         <Image
           src={bgImage.imageUrl}
@@ -28,7 +28,7 @@ export function FinalCta() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild className="transform hover:scale-105 transition-transform duration-300 shadow-lg">
-            <a href="#contato">
+            <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">
               Solicitar Orçamento
             </a>
           </Button>

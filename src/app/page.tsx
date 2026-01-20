@@ -1,7 +1,6 @@
 import { About } from '@/components/sections/about';
 import { Achievements } from '@/components/sections/achievements';
 import { Catalog } from '@/components/sections/catalog';
-import { Contact } from '@/components/sections/contact';
 import { Differentiators } from '@/components/sections/differentiators';
 import { FinalCta } from '@/components/sections/final-cta';
 import { Footer } from '@/components/sections/footer';
@@ -34,7 +33,6 @@ export default function Home() {
         </div>
         <div data-theme="light">
           <Testimonials />
-          <Contact />
         </div>
         <div data-theme="dark">
           <FinalCta />
