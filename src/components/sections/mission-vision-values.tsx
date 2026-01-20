@@ -23,11 +23,19 @@ export function MissionVisionValues() {
 
   return (
     <section id="missao" className="relative py-12 md:py-20 text-white">
-       <Image
-        src="https://i.imgur.com/UVm889Q.jpeg"
-        alt="Fundo abstrato com textura de tecido"
+      {/* Mobile Image */}
+      <Image
+        src="https://i.imgur.com/dqrV9uO.jpeg"
+        alt="Fundo abstrato com textura de tecido para mobile"
         fill
-        className="object-cover"
+        className="object-cover md:hidden"
+      />
+      {/* Desktop Image */}
+      <Image
+        src="https://i.imgur.com/UVm889Q.jpeg"
+        alt="Fundo abstrato com textura de tecido para desktop"
+        fill
+        className="object-cover hidden md:block"
       />
       <div className="container relative z-10 mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 place-items-center">
