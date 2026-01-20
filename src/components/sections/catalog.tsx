@@ -33,7 +33,7 @@ export function Catalog() {
         </p>
 
         <Tabs defaultValue="almofadas" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 mb-8 md:mb-12">
+          <TabsList className="flex flex-wrap justify-center gap-2 mb-8 md:mb-12">
             {catalogCategories.map((category) => (
               <TabsTrigger key={category.id} value={category.id}>
                 {category.name}
