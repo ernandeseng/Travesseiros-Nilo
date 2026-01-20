@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
-import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import { navLinks } from '@/lib/data';
 import { cn } from '@/lib/utils';
@@ -54,8 +53,7 @@ export function Header() {
         headerTheme === 'light' ? 'bg-secondary shadow-md' : 'bg-transparent'
       )}
     >
-      <div className="container mx-auto flex h-20 items-center justify-between">
-        <Logo priority />
+      <div className="container mx-auto flex h-20 items-center justify-end">
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
@@ -84,8 +82,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-secondary text-white border-l-0">
                <div className="flex flex-col h-full">
-                <div className="flex justify-between items-center p-4 border-b border-white/10">
-                  <Logo />
+                <div className="flex justify-end items-center p-4 border-b border-white/10">
                   <SheetTrigger asChild>
                      <Button variant="ghost" size="icon">
                        <X />
