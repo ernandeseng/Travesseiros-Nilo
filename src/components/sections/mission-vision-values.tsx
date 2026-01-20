@@ -1,6 +1,6 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Eye, Gem, Goal } from "lucide-react";
 import Image from "next/image";
+import { HighlightCard } from "@/components/ui/highlight-card";
 
 export function MissionVisionValues() {
   const items = [
@@ -30,19 +30,14 @@ export function MissionVisionValues() {
         className="object-cover"
       />
       <div className="container relative z-10 mx-auto">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center">
           {items.map((item, index) => (
-            <Card key={index} className="border-none shadow-none bg-transparent text-center p-6">
-              <CardHeader className="items-center">
-                <div className="bg-primary/10 p-4 rounded-full mb-4">
-                  <item.icon className="h-10 w-10 text-primary" />
-                </div>
-                <CardTitle className="text-2xl font-headline font-bold text-white drop-shadow-md">{item.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-white drop-shadow-md">{item.description}</p>
-              </CardContent>
-            </Card>
+            <HighlightCard
+              key={index}
+              title={item.title}
+              description={[item.description]}
+              icon={<item.icon className="w-8 h-8 text-white" />}
+            />
           ))}
         </div>
       </div>
