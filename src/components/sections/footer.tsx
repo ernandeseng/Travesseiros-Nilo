@@ -97,7 +97,7 @@ export function Footer() {
             direitos reservados.
           </p>
           <p className="mt-2">
-            Desenvolvido com ❤️ por <a href="https://rochadigital.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">Rocha Digital</a>
+            Desenvolvido por Rocha Digital
           </p>
         </div>
       </div>
