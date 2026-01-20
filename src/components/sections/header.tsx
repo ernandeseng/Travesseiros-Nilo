@@ -55,7 +55,7 @@ export function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between">
-        <Logo />
+        <Logo priority />
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
