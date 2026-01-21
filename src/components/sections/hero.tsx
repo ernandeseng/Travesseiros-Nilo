@@ -21,7 +21,6 @@ export function Hero() {
         className="object-cover hidden md:block"
         priority
       />
-      <div className="absolute inset-0 bg-black/60" />
     </section>
   );
 }
