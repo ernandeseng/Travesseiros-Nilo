@@ -15,7 +15,7 @@ export function Hero() {
       />
       {/* Desktop Image */}
       <div className="hidden md:block absolute inset-y-0 left-0 right-0">
-        <div className="relative h-full w-[calc(90%-10px)] ml-auto">
+        <div className="relative h-full w-[calc(90%-20px)] ml-auto">
             <Image
                 src="https://i.imgur.com/rfxV3wY.png"
                 alt="Banner promocional Nilo Travesseiros para desktop"
