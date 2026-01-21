@@ -56,7 +56,6 @@ export const productsByCategory = {
     ],
     'cama-pet': [
         { id: "019", name: "Cama Pet Lisa 50x50", imageId: 'pet-bed-lisa-blue', badge: 'FARDO/50' },
-        { id: "032", name: "Cama Pet Lisa 50x60", imageId: 'pet-bed-lisa-beige', badge: 'FARDO/50' },
         { id: "020", name: "Cama Pet Estampada 50x50", imageId: 'pet-bed-estampada-pink', badge: 'FARDO/50' },
         { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
     ],
