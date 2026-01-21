@@ -135,11 +135,15 @@ section#hero::after {
   z-index: 1;
 }
 
+#historia-title {
+  position: relative;
+  z-index: 2;
+  margin-top: -100px;
+}
+
 section#sobre {
   position: relative;
   background-color: #2d2d2d;
-  z-index: 2;
-  margin-top: -100px;
 }
 
 @media (max-width: 768px) {
@@ -149,7 +153,7 @@ section#sobre {
   section#hero::after {
     height: 180px;
   }
-  section#sobre {
+  #historia-title {
     margin-top: -60px;
   }
 }
