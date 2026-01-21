@@ -10,7 +10,7 @@ export function Hero() {
         src="https://i.imgur.com/YApnGNp.png"
         alt="Banner Nilo Travesseiros para mobile"
         fill
-        className="object-contain md:hidden"
+        className="object-cover md:hidden"
         priority
       />
       {/* Desktop Image */}
