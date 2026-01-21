@@ -15,12 +15,12 @@ export function Hero() {
       />
       {/* Desktop Image */}
       <div className="hidden md:block absolute inset-y-0 left-0 right-0">
-        <div className="relative h-full w-[calc(100%-10px)] ml-auto">
+        <div className="relative h-full w-full">
             <Image
                 src="https://i.imgur.com/rfxV3wY.png"
                 alt="Banner promocional Nilo Travesseiros para desktop"
                 fill
-                className="object-contain"
+                className="object-contain object-right"
                 priority
             />
         </div>
