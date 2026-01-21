@@ -7,7 +7,7 @@ export function Hero() {
     <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-screen text-primary-foreground bg-black">
       {/* Mobile Image */}
       <Image
-        src="https://i.imgur.com/uGpQdj0.jpeg"
+        src="https://i.imgur.com/YApnGNp.png"
         alt="Banner Nilo Travesseiros para mobile"
         fill
         className="object-cover md:hidden"
