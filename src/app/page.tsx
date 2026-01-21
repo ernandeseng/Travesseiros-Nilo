@@ -40,7 +40,7 @@ export default function Home() {
           <div
             id="historia-title"
             className={cn(
-              "bg-secondary py-4 px-4 text-center bg-textured transition-opacity duration-700 ease-in-out",
+              "bg-secondary py-4 px-4 text-center transition-opacity duration-700 ease-in-out",
               isHistoriaVisible ? "opacity-100" : "opacity-0"
             )}
           >
