@@ -7,7 +7,10 @@ export function Hero() {
     <section id="hero" className="relative flex items-center justify-center h-[80vh] md:h-screen text-primary-foreground bg-primary overflow-hidden">
       
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
-        <div className="w-64 md:w-96 animate-float">
+        <h1 className="text-4xl md:text-7xl font-display text-white mb-2 drop-shadow-lg">
+          Nilo Travesseiros
+        </h1>
+        <div className="w-80 md:w-[480px] animate-float">
           <Image
             src="https://i.imgur.com/pop4KkB.png"
             alt="Nilo Travesseiros Logo"
@@ -17,9 +20,9 @@ export function Hero() {
             priority
           />
         </div>
-        <h1 className="text-2xl md:text-4xl font-serif font-bold italic text-white mt-4 md:mt-8 drop-shadow-lg text-balance">
+        <p className="text-xl md:text-3xl font-serif italic text-white -mt-4 md:-mt-8 drop-shadow-lg text-balance">
           Conforto que transforma suas noites.
-        </h1>
+        </p>
       </div>
     </section>
   );
