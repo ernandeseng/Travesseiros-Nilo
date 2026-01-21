@@ -10,7 +10,7 @@ export function Hero() {
         src="https://i.imgur.com/F3ytYet.jpeg"
         alt="Banner promocional Nilo Travesseiros para mobile"
         fill
-        className="object-cover md:hidden"
+        className="object-contain md:hidden"
         priority
       />
       {/* Desktop Image */}
@@ -18,7 +18,7 @@ export function Hero() {
         src="https://i.imgur.com/XxniJoo.jpeg"
         alt="Banner promocional Nilo Travesseiros para desktop"
         fill
-        className="object-cover hidden md:block"
+        className="object-contain hidden md:block"
         priority
       />
     </section>
