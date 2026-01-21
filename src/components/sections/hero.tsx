@@ -7,10 +7,10 @@ export function Hero() {
     <section id="hero" className="relative flex items-center justify-center min-h-screen text-primary-foreground">
       {/* Mobile Image */}
       <Image
-        src="https://i.imgur.com/JbfuA92.jpeg"
-        alt="Banner promocional Nilo Travesseiros para mobile"
+        src="https://i.imgur.com/1bcahj2.jpeg"
+        alt="Banner com colagem de fotos da fábrica Nilo Travesseiros para mobile"
         fill
-        className="object-contain md:hidden"
+        className="object-cover md:hidden"
         priority
       />
       {/* Desktop Image */}
