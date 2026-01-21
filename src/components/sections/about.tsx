@@ -8,7 +8,7 @@ export function About() {
   ];
 
   return (
-    <section id="sobre" className="relative text-white py-12 md:py-20">
+    <section id="sobre" className="relative text-white py-12 md:py-20 md:pb-32">
       <Image
         src="https://i.imgur.com/1bcahj2.jpeg"
         alt="Colagem de fotos da fábrica Nilo Travesseiros em formato mobile"
