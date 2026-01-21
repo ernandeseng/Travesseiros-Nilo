@@ -17,7 +17,7 @@ export function Hero() {
       <div className="hidden md:block absolute inset-y-0 left-0 right-0">
         <div className="relative h-full w-[calc(90%-20px)] ml-auto">
             <Image
-                src="https://i.imgur.com/rfxV3wY.png"
+                src="https://i.imgur.com/lNRrr4Z.png"
                 alt="Banner promocional Nilo Travesseiros para desktop"
                 fill
                 className="object-cover object-right"
