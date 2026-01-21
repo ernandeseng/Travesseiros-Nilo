@@ -121,12 +121,6 @@
       "imageHint": "cushion cover"
     },
     {
-      "id": "capa-rustica",
-      "description": "Rustic cushion cover",
-      "imageUrl": "https://images.unsplash.com/photo-1762656669779-c12699836002?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwY292ZXJ8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion cover"
-    },
-    {
       "id": "travesseiro-flocos",
       "description": "Flake pillow",
       "imageUrl": "https://images.unsplash.com/photo-1601276174812-63280a55656e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaWxsb3d8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
