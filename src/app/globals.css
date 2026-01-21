@@ -138,7 +138,7 @@ section#hero::after {
 #historia-title {
   position: relative;
   z-index: 2;
-  margin-top: -100px;
+  margin-top: -95px;
 }
 
 section#sobre {
@@ -154,6 +154,6 @@ section#sobre {
     height: 180px;
   }
   #historia-title {
-    margin-top: -60px;
+    margin-top: -55px;
   }
 }
