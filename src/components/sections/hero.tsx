@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex items-center justify-center h-[80vh] text-primary-foreground bg-primary overflow-hidden">
+    <section id="hero" className="relative flex items-center justify-center h-[80vh] md:h-screen text-primary-foreground bg-primary overflow-hidden">
       
       <div className="relative z-10 text-center px-4 flex flex-col items-center">
         <div className="w-64 md:w-96 animate-float">
