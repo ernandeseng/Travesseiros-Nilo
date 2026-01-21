@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useEffect } from 'react';
+import { cn } from '@/lib/utils';
 import { About } from '@/components/sections/about';
 import { Achievements } from '@/components/sections/achievements';
 import { Catalog } from '@/components/sections/catalog';
@@ -10,13 +14,36 @@ import { MissionVisionValues } from '@/components/sections/mission-vision-values
 import { Testimonials } from '@/components/sections/testimonials';
 
 export default function Home() {
+  const [isHistoriaVisible, setIsHistoriaVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsHistoriaVisible(true);
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <Header />
       <main className="flex-1">
         <div data-theme="dark">
           <Hero />
-          <div id="historia-title" className="bg-secondary py-4 px-4 text-center bg-textured">
+          <div
+            id="historia-title"
+            className={cn(
+              "bg-secondary py-4 px-4 text-center bg-textured transition-opacity duration-700 ease-in-out",
+              isHistoriaVisible ? "opacity-100" : "opacity-0"
+            )}
+          >
             <h2 className="text-2xl lg:text-3xl font-serif font-bold italic text-white">
               Nossa História
             </h2>
