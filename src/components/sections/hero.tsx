@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-screen text-primary-foreground bg-black">
+    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-screen text-primary-foreground bg-primary">
       {/* Mobile Image */}
       <Image
         src="https://i.imgur.com/YApnGNp.png"
@@ -15,14 +15,14 @@ export function Hero() {
       />
       {/* Desktop Image */}
       <Image
-        src="https://i.imgur.com/4PNKvir.jpeg"
+        src="https://i.imgur.com/rfxV3wY.png"
         alt="Banner promocional Nilo Travesseiros para desktop"
         fill
-        className="object-cover hidden md:block"
+        className="object-contain hidden md:block"
         priority
       />
-      <div className="relative z-10 text-center px-4 -mt-[15vh]">
-        <h1 className="text-[28px] md:text-[52px] font-bold text-white md:hidden">
+      <div className="relative z-10 text-center px-4 -mt-[15vh] md:hidden">
+        <h1 className="text-[28px] md:text-[52px] font-bold text-white">
           Conforto que transforma suas noites.
         </h1>
       </div>
