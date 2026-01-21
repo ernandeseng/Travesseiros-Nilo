@@ -73,7 +73,6 @@ export const productsByCategory = {
     ],
     fibra: [
         { id: "F01", name: "Fibra Siliconada Pacote 1kg", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
-        { id: "F02", name: "Fibra Siliconada Pacote 5kg", imageId: 'fibra-siliconada-2', badge: 'PACOTE/5kg' },
     ],
 };
 
