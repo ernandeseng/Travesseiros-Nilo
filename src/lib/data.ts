@@ -60,10 +60,23 @@ export const productsByCategory = {
         { id: "020", name: "Cama Pet Estampada 50x50", imageId: 'pet-bed-estampada-pink', badge: 'FARDO/50' },
         { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
     ],
-    capas: [],
-    travesseiros: [],
-    refil: [],
-    fibra: [],
+    capas: [
+        { id: "C01", name: "Capa de Almofada Suede", imageId: 'capa-suede', badge: 'FARDO/100' },
+        { id: "C02", name: "Capa de Almofada Rústica", imageId: 'capa-rustica', badge: 'FARDO/100' },
+    ],
+    travesseiros: [
+        { id: "T01", name: "Travesseiro de Flocos", imageId: 'travesseiro-flocos', badge: 'FARDO/20' },
+        { id: "T02", name: "Travesseiro de Fibra Siliconada", imageId: 'travesseiro-fibra', badge: 'FARDO/20' },
+        { id: "T03", name: "Travesseiro de Corpo", imageId: 'travesseiro-corpo', badge: 'FARDO/10' },
+    ],
+    refil: [
+        { id: "R01", name: "Refil de Almofada TNT 45x45", imageId: 'refil-tnt', badge: 'FARDO/50' },
+        { id: "R02", name: "Refil de Almofada TNT 50x50", imageId: 'refil-tnt-2', badge: 'FARDO/50' },
+    ],
+    fibra: [
+        { id: "F01", name: "Fibra Siliconada Pacote 1kg", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
+        { id: "F02", name: "Fibra Siliconada Pacote 5kg", imageId: 'fibra-siliconada-2', badge: 'PACOTE/5kg' },
+    ],
 };
 
 export const testimonials = [

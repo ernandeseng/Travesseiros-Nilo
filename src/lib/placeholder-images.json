@@ -113,6 +113,60 @@
       "description": "Blue patterned pet bed",
       "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "pet bed"
+    },
+    {
+      "id": "capa-suede",
+      "description": "Suede cushion cover",
+      "imageUrl": "https://images.unsplash.com/photo-1723399973151-7adde0c7ed1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjdXNoaW9uJTIwY292ZXJ8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capa-rustica",
+      "description": "Rustic cushion cover",
+      "imageUrl": "https://images.unsplash.com/photo-1762656669779-c12699836002?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwY292ZXJ8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "travesseiro-flocos",
+      "description": "Flake pillow",
+      "imageUrl": "https://images.unsplash.com/photo-1601276174812-63280a55656e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwaWxsb3d8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pillow"
+    },
+    {
+      "id": "travesseiro-fibra",
+      "description": "Siliconized fiber pillow",
+      "imageUrl": "https://images.unsplash.com/photo-1685122121719-c513a7f1a845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbG93fGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pillow"
+    },
+    {
+      "id": "travesseiro-corpo",
+      "description": "Body pillow",
+      "imageUrl": "https://images.unsplash.com/photo-1670000037516-62045745b67d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxib2R5JTIwcGlsbG93fGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "body pillow"
+    },
+    {
+      "id": "refil-tnt",
+      "description": "TNT cushion refill",
+      "imageUrl": "https://images.unsplash.com/photo-1655149555295-b6eca3936ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion refill"
+    },
+    {
+      "id": "refil-tnt-2",
+      "description": "Another TNT cushion refill",
+      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cushion refill"
+    },
+    {
+      "id": "fibra-siliconada",
+      "description": "Siliconized fiber pack",
+      "imageUrl": "https://images.unsplash.com/photo-1633447183041-4485269fe62a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzaWxpY29uaXplZCUyMGZpYmVyfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "siliconized fiber"
+    },
+    {
+      "id": "fibra-siliconada-2",
+      "description": "Another siliconized fiber pack",
+      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "siliconized fiber"
     }
   ]
 }
