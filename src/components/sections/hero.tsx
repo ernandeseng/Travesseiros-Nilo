@@ -4,27 +4,20 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-[80vh] text-primary-foreground bg-primary overflow-hidden">
-      {/* Mobile Image */}
-      <Image
-        src="https://i.imgur.com/YApnGNp.png"
-        alt="Banner Nilo Travesseiros para mobile"
-        fill
-        className="object-cover md:hidden"
-        priority
-      />
-      {/* Desktop Image */}
-      <div className="hidden md:block absolute inset-y-0 left-0 w-1/2 h-full">
+    <section id="hero" className="relative flex items-center justify-center h-[80vh] text-primary-foreground bg-primary overflow-hidden">
+      
+      <div className="relative z-10 text-center px-4 flex flex-col items-center">
+        <div className="w-64 md:w-96 animate-float">
           <Image
-            src="https://i.imgur.com/lNRrr4Z.png"
-            alt="Banner promocional Nilo Travesseiros para desktop"
-            fill
-            className="object-contain object-left"
+            src="https://i.imgur.com/pop4KkB.png"
+            alt="Nilo Travesseiros Logo"
+            width={512}
+            height={512}
+            className="object-contain"
             priority
           />
-      </div>
-      <div className="relative z-10 text-center px-4 -mt-[15vh] hidden md:block">
-        <h1 className="text-[28px] md:text-[52px] font-bold text-white">
+        </div>
+        <h1 className="text-2xl md:text-4xl font-serif font-bold italic text-white mt-4 md:mt-8 drop-shadow-lg text-balance">
           Conforto que transforma suas noites.
         </h1>
       </div>
