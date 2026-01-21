@@ -14,16 +14,14 @@ export function Hero() {
         priority
       />
       {/* Desktop Image */}
-      <div className="hidden md:block absolute inset-y-0 left-0 right-0">
-        <div className="relative h-full w-[calc(90%-20px)] ml-auto">
-            <Image
-                src="https://i.imgur.com/lNRrr4Z.png"
-                alt="Banner promocional Nilo Travesseiros para desktop"
-                fill
-                className="object-cover object-right"
-                priority
-            />
-        </div>
+      <div className="hidden md:block absolute inset-0">
+        <Image
+            src="https://i.imgur.com/lNRrr4Z.png"
+            alt="Banner promocional Nilo Travesseiros para desktop"
+            fill
+            className="object-cover"
+            priority
+        />
       </div>
       <div className="relative z-10 text-center px-4 -mt-[15vh] hidden md:block">
         <h1 className="text-[28px] md:text-[52px] font-bold text-white">
