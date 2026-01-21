@@ -22,7 +22,7 @@ export function Hero() {
         priority
       />
       <div className="relative z-10 text-center px-4 -mt-[15vh]">
-        <h1 className="text-[28px] md:text-[52px] font-bold text-white">
+        <h1 className="text-[28px] md:text-[52px] font-bold text-white md:hidden">
           Conforto que transforma suas noites.
         </h1>
       </div>
