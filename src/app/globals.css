@@ -141,11 +141,6 @@ section#hero::after {
   margin-top: -95px;
 }
 
-section#sobre {
-  position: relative;
-  background-color: #2d2d2d;
-}
-
 @media (max-width: 768px) {
   section#hero {
     padding-bottom: 150px;
