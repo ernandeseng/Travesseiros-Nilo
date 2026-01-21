@@ -17,37 +17,33 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ShoppingBag } from "lucide-react";
 
 export function Catalog() {
   return (
     <section id="produtos" className="py-12 md:py-20 bg-muted">
-      <div className="container mx-auto px-4 text-center md:px-6">
-        <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-2">
-          Nosso Catálogo
-        </h2>
-        <p className="text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12 text-balance">
-          Conheça nossas soluções em conforto que vão encantar seus clientes.
-          Temos uma vasta gama de produtos para atender às suas necessidades.
-        </p>
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center">
+          <h2 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-2">
+            Nosso Catálogo
+          </h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12 text-balance">
+            Conheça nossas soluções em conforto que vão encantar seus clientes.
+            Temos uma vasta gama de produtos para atender às suas necessidades.
+          </p>
+        </div>
 
-        <Tabs defaultValue="almofadas" className="w-full">
-          <TabsList className="flex flex-wrap justify-center gap-2 mb-8 md:mb-12">
-            {catalogCategories.map((category) => (
-              <TabsTrigger key={category.id} value={category.id}>
-                {category.name}
-              </TabsTrigger>
-            ))}
-          </TabsList>
-
+        <div className="space-y-16">
           {catalogCategories.map((category) => {
             const products =
               productsByCategory[
                 category.id as keyof typeof productsByCategory
               ];
             return (
-              <TabsContent key={category.id} value={category.id}>
+              <div key={category.id}>
+                <h3 className="text-2xl lg:text-3xl font-serif font-bold italic text-secondary mb-6 text-left">
+                  {category.name}
+                </h3>
                 {products.length > 0 ? (
                   <Carousel
                     opts={{
@@ -107,11 +103,11 @@ export function Catalog() {
                         );
                       })}
                     </CarouselContent>
-                    <CarouselPrevious className="hidden lg:flex" />
-                    <CarouselNext className="hidden lg:flex" />
+                    <CarouselPrevious className="left-4 lg:-left-12" />
+                    <CarouselNext className="right-4 lg:-right-12" />
                   </Carousel>
                 ) : (
-                  <div className="text-center py-16 text-muted-foreground">
+                  <div className="text-center py-16 text-muted-foreground border rounded-lg bg-background">
                     <ShoppingBag className="mx-auto h-12 w-12 mb-4" />
                     <h3 className="text-xl font-semibold">Em Breve</h3>
                     <p>
@@ -119,10 +115,10 @@ export function Catalog() {
                     </p>
                   </div>
                 )}
-              </TabsContent>
+              </div>
             );
           })}
-        </Tabs>
+        </div>
       </div>
     </section>
   );
