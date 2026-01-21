@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-screen text-primary-foreground bg-primary overflow-hidden">
+    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-[80vh] text-primary-foreground bg-primary overflow-hidden">
       {/* Mobile Image */}
       <Image
         src="https://i.imgur.com/YApnGNp.png"
@@ -14,7 +14,7 @@ export function Hero() {
         priority
       />
       {/* Desktop Image */}
-      <div className="hidden md:block absolute inset-0">
+      <div className="hidden md:block absolute inset-0 w-full h-full">
         <Image
             src="https://i.imgur.com/lNRrr4Z.png"
             alt="Banner promocional Nilo Travesseiros para desktop"
