@@ -12,7 +12,7 @@ export function Hero() {
         </h1>
         <div className="w-80 md:w-[480px] animate-float">
           <Image
-            src="https://i.imgur.com/pop4KkB.png"
+            src="https://i.imgur.com/fROlhwD.png"
             alt="Nilo Travesseiros Logo"
             width={512}
             height={512}
