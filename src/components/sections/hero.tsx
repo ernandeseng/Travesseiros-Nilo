@@ -7,21 +7,21 @@ export function Hero() {
     <section id="hero" className="relative h-[80vh] md:h-screen text-primary-foreground bg-primary overflow-hidden">
       
       {/* Positioned Logo */}
-      <div className="absolute bottom-0 right-0 w-3/4 max-w-lg md:w-1/2">
+      <div className="absolute bottom-0 left-0 w-3/4 max-w-lg md:w-1/2">
         <Image
           src="https://i.imgur.com/fROlhwD.png"
           alt="Nilo Travesseiros Logo"
-          width={512}
-          height={512}
+          width={532}
+          height={532}
           className="object-contain"
           priority
         />
       </div>
       
       {/* Text Content */}
-      <div className="relative z-10 h-full flex items-center">
+      <div className="relative z-10 h-full flex items-center justify-center md:justify-end">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-md text-center md:text-left">
+          <div className="max-w-md text-center md:text-right">
             <h1 className="text-4xl md:text-7xl font-display text-white mb-2 drop-shadow-lg">
               Nilo Travesseiros
             </h1>
