@@ -15,10 +15,10 @@ export function Hero() {
       />
       {/* Desktop Image */}
       <Image
-        src="https://i.imgur.com/hM1uSGR.jpeg"
+        src="https://i.imgur.com/4PNKvir.jpeg"
         alt="Banner promocional Nilo Travesseiros para desktop"
         fill
-        className="object-contain hidden md:block"
+        className="object-cover hidden md:block"
         priority
       />
       <div className="relative z-10 text-center px-4 -mt-[15vh]">
