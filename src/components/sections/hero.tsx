@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 min-h-screen text-primary-foreground bg-black">
+    <section id="hero" className="relative flex items-start justify-center pt-32 md:pt-48 h-screen text-primary-foreground bg-black">
       {/* Mobile Image */}
       <Image
         src="https://i.imgur.com/uGpQdj0.jpeg"
