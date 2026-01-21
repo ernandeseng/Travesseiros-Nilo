@@ -21,7 +21,7 @@ export function Hero() {
         className="object-contain hidden md:block"
         priority
       />
-      <div className="relative z-10 text-center px-4">
+      <div className="relative z-10 text-center px-4 -mt-[10px]">
         <h1 className="text-4xl md:text-6xl font-bold text-white">
           Conforto que transforma suas noites.
         </h1>
