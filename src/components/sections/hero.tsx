@@ -15,7 +15,7 @@ export function Hero() {
       />
       {/* Desktop Image */}
       <Image
-        src="https://i.imgur.com/JbfuA92.jpeg"
+        src="https://i.imgur.com/dqrV9uO.jpeg"
         alt="Banner promocional Nilo Travesseiros para desktop"
         fill
         className="object-cover hidden md:block"
