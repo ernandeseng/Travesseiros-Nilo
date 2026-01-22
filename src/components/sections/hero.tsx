@@ -7,7 +7,7 @@ export function Hero() {
     <section id="hero" className="relative h-[80vh] md:h-screen text-primary-foreground bg-primary overflow-hidden">
       
       {/* Positioned Logo */}
-      <div className="absolute bottom-0 left-0 w-full max-w-6xl">
+      <div className="absolute bottom-0 left-0 w-full md:max-w-4xl lg:max-w-6xl">
         <Image
           src="https://i.imgur.com/fROlhwD.png"
           alt="Nilo Travesseiros Logo"
@@ -21,7 +21,7 @@ export function Hero() {
       {/* Slogan and Subtitle */}
       <div className="relative h-full flex items-center">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="w-full md:w-5/12 md:ml-auto text-center md:text-right">
+            <div className="w-full lg:w-5/12 lg:ml-auto text-center lg:text-right">
                 <h1 className="text-4xl lg:text-6xl font-serif font-bold italic text-white drop-shadow-lg text-balance">
                     O Abraço Perfeito para Suas Noites
                 </h1>
