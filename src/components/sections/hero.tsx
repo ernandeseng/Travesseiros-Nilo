@@ -17,6 +17,17 @@ export function Hero() {
         />
       </div>
       
+      {/* Slogan for Mobile */}
+      <div className="relative h-full flex items-start md:hidden pt-20 justify-center">
+          <div className="w-full px-4 text-center">
+            <h1 className="text-2xl font-serif font-bold italic text-white text-balance">
+                O Abraço Perfeito para Suas Noites
+            </h1>
+          </div>
+      </div>
+
+      {/* --- DESKTOP --- */}
+
       {/* Logo for desktop */}
       <div className="hidden md:block absolute bottom-0 left-0 w-full max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-3xl xl:max-w-4xl">
         <Image
@@ -29,14 +40,15 @@ export function Hero() {
         />
       </div>
 
-      {/* Slogan for Mobile */}
-      <div className="relative h-full flex items-start md:hidden pt-20 justify-center">
-          <div className="w-full px-4 text-center">
-            <h1 className="text-2xl font-serif font-bold italic text-white text-balance">
-                O Abraço Perfeito para Suas Noites
-            </h1>
-          </div>
+      {/* Title for desktop */}
+      <div className="hidden md:flex items-center justify-end absolute inset-0">
+        <div className="w-full max-w-md lg:max-w-lg xl:max-w-xl text-right pr-6 lg:pr-12">
+           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-serif font-bold italic text-white text-balance drop-shadow-lg">
+              O Abraço Perfeito<br/>para Suas Noites
+           </h1>
+        </div>
       </div>
+
     </section>
   );
 }
