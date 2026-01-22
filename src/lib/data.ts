@@ -63,7 +63,7 @@ export const productsByCategory = {
         { id: "C01", name: "Capa de Almofada Suede", imageId: 'capa-suede', badge: 'FARDO/100' },
     ],
     travesseiros: [
-        { id: "T01", name: "Travesseiro de Flocos", imageId: 'travesseiro-flocos', badge: 'FARDO/20' },
+        { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo', badge: 'FARDO/20' },
         { id: "T02", name: "Travesseiro de Fibra Siliconada", imageId: 'travesseiro-fibra', badge: 'FARDO/20' },
     ],
     refil: [
