@@ -155,6 +155,12 @@
       "description": "Another siliconized fiber pack",
       "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "siliconized fiber"
+    },
+    {
+      "id": "travesseiro-prabom",
+      "description": "Travesseiro Nilo Prabom",
+      "imageUrl": "https://i.imgur.com/FvGaCer.jpeg",
+      "imageHint": "nilo pillow"
     }
   ]
 }
