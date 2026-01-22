@@ -17,20 +17,6 @@ export function Hero() {
           priority
         />
       </div>
-      
-      {/* Text Content */}
-      <div className="relative z-10 h-full flex items-center justify-center md:justify-end">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-md text-center md:text-right">
-            <h1 className="text-4xl md:text-7xl font-display text-white mb-2 drop-shadow-lg">
-              Nilo Travesseiros
-            </h1>
-            <p className="text-xl md:text-3xl font-serif italic text-white drop-shadow-lg text-balance">
-              Conforto que transforma suas noites.
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
