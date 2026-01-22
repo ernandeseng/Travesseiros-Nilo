@@ -21,7 +21,7 @@ export function Hero() {
       {/* Slogan and Subtitle */}
       <div className="relative h-full flex items-center">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="w-full md:w-1/2 md:ml-auto text-center md:text-left">
+            <div className="w-full md:w-1/2 md:ml-auto text-center md:text-right">
                 <h1 className="text-4xl lg:text-6xl font-serif font-bold italic text-white drop-shadow-lg text-balance">
                     O Abraço Perfeito para Suas Noites
                 </h1>
