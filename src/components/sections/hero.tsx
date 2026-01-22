@@ -27,17 +27,16 @@ export function Hero() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       {/* Slogan and Subtitle */}
       <div className="relative h-full flex items-center md:items-end">
           <div className="w-full px-4 md:px-6 h-full">
             <div className="h-full w-full flex flex-col justify-start pt-24 md:pt-0 md:justify-center items-center md:items-end text-center md:text-right">
-                <h1 className="text-[20px] font-serif font-bold italic text-white text-balance drop-shadow-lg md:text-right">
+                <h1 className="text-[20px] font-serif font-bold italic text-white text-balance md:drop-shadow-lg md:text-right">
                     O Abraço Perfeito para Suas Noites
                 </h1>
-                <p className="mt-1 text-[18px] text-white/90 max-w-lg text-balance drop-shadow-md">
+                <p className="mt-1 hidden text-[18px] text-white/90 max-w-lg text-balance drop-shadow-md md:block">
                   Conforto premium que transforma suas noites em experiências inesquecíveis.
                 </p>
             </div>
