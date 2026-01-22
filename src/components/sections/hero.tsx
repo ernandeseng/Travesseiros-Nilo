@@ -7,12 +7,12 @@ export function Hero() {
     <section id="hero" className="relative h-[80vh] md:h-screen text-primary-foreground bg-primary overflow-hidden">
       
       {/* Positioned Logo */}
-      <div className="absolute bottom-0 left-0 w-3/4 max-w-lg md:w-1/2">
+      <div className="absolute bottom-0 left-0 w-5/6 max-w-xl md:w-7/12">
         <Image
           src="https://i.imgur.com/fROlhwD.png"
           alt="Nilo Travesseiros Logo"
-          width={532}
-          height={532}
+          width={576}
+          height={576}
           className="object-contain"
           priority
         />
