@@ -18,7 +18,7 @@ export function Hero() {
       </div>
       
       {/* Logo for desktop */}
-      <div className="hidden md:block absolute bottom-0 left-0 w-full max-w-sm sm:max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+      <div className="hidden md:block absolute bottom-0 left-0 w-full max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-3xl xl:max-w-4xl">
         <Image
           src="https://i.imgur.com/fROlhwD.png"
           alt="Nilo Travesseiros Logo"
