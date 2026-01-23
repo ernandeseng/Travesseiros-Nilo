@@ -56,8 +56,7 @@ export const productsByCategory = {
     ],
     'cama-pet': [
         { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032', badge: 'FARDO/50' },
-        { id: "020", name: "Cama Pet Estampada 50x50", imageId: 'pet-bed-estampada-pink', badge: 'FARDO/50' },
-        { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
+        { id: "031", name: "Cama Pet Lisa", imageId: 'cama-pet-lisa-031', badge: 'FARDO/50' },
     ],
     capas: [
         { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027', badge: 'FARDO/100' },

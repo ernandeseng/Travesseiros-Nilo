@@ -179,6 +179,12 @@
       "description": "Cama Pet Estampada",
       "imageUrl": "https://i.imgur.com/9GwVnm5.jpeg",
       "imageHint": "pet bed"
+    },
+    {
+      "id": "cama-pet-lisa-031",
+      "description": "Cama Pet Lisa",
+      "imageUrl": "https://i.imgur.com/sYgPbtU.jpeg",
+      "imageHint": "pet bed"
     }
   ]
 }
