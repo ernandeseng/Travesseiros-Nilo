@@ -74,6 +74,7 @@ export const productsByCategory = {
     ],
     refil: [
         { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt' },
+        { id: "016", name: "Refil TNT Para Almofada 50x50", imageId: 'refil-tnt-50x50' },
     ],
     fibra: [
         { id: "013", name: "Fibra de Silicone", imageId: 'fibra-siliconada' },
