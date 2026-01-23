@@ -69,7 +69,7 @@ export const productsByCategory = {
         { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt', badge: 'FARDO/50' },
     ],
     fibra: [
-        { id: "F01", name: "Fibra Siliconada Pacote 1kg", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
+        { id: "013", name: "Fibra de Silicone", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
     ],
 };
 
