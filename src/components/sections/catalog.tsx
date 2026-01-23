@@ -63,7 +63,7 @@ export function Catalog() {
                             className="md:basis-1/2 lg:basis-1/3"
                           >
                             <div className="p-1 h-full">
-                              <Card className="text-left h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-xl overflow-hidden">
+                              <Card className="text-left h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-xl overflow-hidden border-0">
                                 <CardHeader className="p-0 relative aspect-square">
                                   {image && (
                                     <Image
@@ -84,7 +84,7 @@ export function Catalog() {
                                     {product.name}
                                   </CardTitle>
                                 </CardContent>
-                                <CardFooter className="p-4 flex justify-end">
+                                <CardFooter className="p-4 pt-0 flex justify-end">
                                   <Button
                                     asChild
                                     variant="default"
