@@ -55,7 +55,7 @@ export const productsByCategory = {
         { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6', badge: 'FARDO/60' },
     ],
     'cama-pet': [
-        { id: "019", name: "Cama Pet Lisa 50x50", imageId: 'pet-bed-lisa-blue', badge: 'FARDO/50' },
+        { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032', badge: 'FARDO/50' },
         { id: "020", name: "Cama Pet Estampada 50x50", imageId: 'pet-bed-estampada-pink', badge: 'FARDO/50' },
         { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
     ],

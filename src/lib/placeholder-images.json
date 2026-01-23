@@ -173,6 +173,12 @@
       "description": "Travesseiro Nilo Prabom",
       "imageUrl": "https://i.imgur.com/FvGaCer.jpeg",
       "imageHint": "nilo pillow"
+    },
+    {
+      "id": "pet-bed-estampada-032",
+      "description": "Cama Pet Estampada",
+      "imageUrl": "https://i.imgur.com/9GwVnm5.jpeg",
+      "imageHint": "pet bed"
     }
   ]
 }
