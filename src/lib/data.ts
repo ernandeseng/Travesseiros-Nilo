@@ -60,7 +60,7 @@ export const productsByCategory = {
         { id: "031", name: "Cama Pet Estampada 50x60", imageId: 'pet-bed-estampada-blue', badge: 'FARDO/50' },
     ],
     capas: [
-        { id: "C01", name: "Capa de Almofada Suede", imageId: 'capa-suede', badge: 'FARDO/100' },
+        { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027', badge: 'FARDO/100' },
     ],
     travesseiros: [
         { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo', badge: 'FARDO/20' },
