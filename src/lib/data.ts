@@ -68,6 +68,9 @@ export const productsByCategory = {
         { id: "005", name: "Travesseiros de Cor", imageId: "travesseiros-de-cor" },
         { id: "006", name: "Travesseiro de Personagem", imageId: "travesseiro-personagem" },
         { id: "007", name: "Travesseiros de Times", imageId: "travesseiros-times" },
+        { id: "009", name: "Travesseiro Xuxão Adulto", imageId: "travesseiro-xuxao-adulto" },
+        { id: "010", name: "Travesseiro de Viagem Estampado", imageId: "travesseiro-viagem-estampado" },
+        { id: "011", name: "Travesseiro de Viagem Liso", imageId: "travesseiro-viagem-liso" },
     ],
     refil: [
         { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt' },
