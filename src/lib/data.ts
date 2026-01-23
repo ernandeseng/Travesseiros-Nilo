@@ -54,7 +54,6 @@ export const productsByCategory = {
         { id: "008", name: "Almofada personalizada de time", imageId: 'almofada-time-008' },
         { id: "018", name: "Almofada Suede Lisa", imageId: 'almofada-suede-lisa-018' },
         { id: "020", name: "Almofada Estampada", imageId: 'product3' },
-        { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5' },
         { id: "042", name: "Almofadas Suede 45x45", imageId: "almofada-suede-45x45-042" },
         { id: "043", name: "Almofadas Matelada 45x45", imageId: "almofada-matelada-45x45-043" },
         { id: "046", name: "Almofada Personalizada", imageId: "almofada-personalizada-046" },
