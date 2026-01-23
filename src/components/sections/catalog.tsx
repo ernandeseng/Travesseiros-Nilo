@@ -71,7 +71,7 @@ export function Catalog() {
                                       alt={product.name}
                                       fill
                                       data-ai-hint={image.imageHint}
-                                      className="rounded-t-lg object-cover"
+                                      className="object-contain p-4"
                                     />
                                   )}
                                 </CardHeader>
