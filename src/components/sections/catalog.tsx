@@ -85,7 +85,7 @@ export function Catalog() {
                                       alt={product.name}
                                       fill
                                       data-ai-hint={image.imageHint}
-                                      className="object-contain transition-transform duration-300 group-hover:scale-105"
+                                      className="object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
                                   )}
                                 </CardHeader>
