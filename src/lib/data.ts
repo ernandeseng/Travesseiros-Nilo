@@ -52,6 +52,9 @@ export const productsByCategory = {
         { id: "020", name: "Almofada Estampada", imageId: 'product3' },
         { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5' },
         { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6' },
+        { id: "042", name: "Almofadas Suede 45x45", imageId: "almofada-suede-45x45-042" },
+        { id: "043", name: "Almofadas Matelada 45x45", imageId: "almofada-matelada-45x45-043" },
+        { id: "046", name: "Almofada Personalizada", imageId: "almofada-personalizada-046" },
     ],
     'cama-pet': [
         { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032' },
@@ -59,6 +62,10 @@ export const productsByCategory = {
     ],
     capas: [
         { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027' },
+        { id: "040", name: "Capa para Baguete Martelada", imageId: "capa-baguete-martelada-040" },
+        { id: "041", name: "Capa para Baguete Rústica", imageId: "capa-baguete-rustica-041" },
+        { id: "044", name: "Capas para Almofadas Matelada 45x45", imageId: "capa-almofada-matelada-45x45-044" },
+        { id: "045", name: "Capas para Almofadas Rústicas", imageId: "capa-almofada-rustica-045" },
     ],
     travesseiros: [
         { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo' },

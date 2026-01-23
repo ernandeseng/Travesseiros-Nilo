@@ -81,7 +81,7 @@
     {
       "id": "testimonial3",
       "description": "Portrait of Mariana Costa",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "final-cta-bg",
       "description": "A pile of comfortable pillows",
-      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pillows pile"
     },
     {
@@ -147,7 +147,7 @@
     {
       "id": "refil-tnt-2",
       "description": "Another TNT cushion refill",
-      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "cushion refill"
     },
     {
@@ -251,6 +251,48 @@
       "description": "Refil para Almofada Baguete 30x42",
       "imageUrl": "https://i.ibb.co/1tkBck9R/image.png",
       "imageHint": "cushion refill"
+    },
+    {
+      "id": "capa-baguete-martelada-040",
+      "description": "Capa para Baguete Martelada",
+      "imageUrl": "https://i.ibb.co/rfxZD7HR/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capa-baguete-rustica-041",
+      "description": "Capa para Baguete Rústica",
+      "imageUrl": "https://i.ibb.co/cG1C3zb/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "almofada-suede-45x45-042",
+      "description": "Almofadas Suede 45x45",
+      "imageUrl": "https://i.ibb.co/35vHzBVZ/image.png",
+      "imageHint": "suede cushion"
+    },
+    {
+      "id": "almofada-matelada-45x45-043",
+      "description": "Almofadas Matelada 45x45",
+      "imageUrl": "https://i.ibb.co/NdZn34wB/image.png",
+      "imageHint": "quilted cushion"
+    },
+    {
+      "id": "capa-almofada-matelada-45x45-044",
+      "description": "Capas para Almofadas Matelada 45x45",
+      "imageUrl": "https://i.ibb.co/TMk81Czw/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capa-almofada-rustica-045",
+      "description": "Capas para Almofadas Rústicas",
+      "imageUrl": "https://i.ibb.co/3mz70rck/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "almofada-personalizada-046",
+      "description": "Almofada Personalizada",
+      "imageUrl": "https://i.ibb.co/WWwTvHCp/image.png",
+      "imageHint": "custom cushion"
     }
   ]
 }
