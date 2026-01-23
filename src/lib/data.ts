@@ -47,29 +47,29 @@ export const catalogCategories = [
 
 export const productsByCategory = {
     almofadas: [
-        { id: "008", name: "Almofada personalizada de time", imageId: 'almofada-time-008', badge: 'FARDO/60' },
-        { id: "018", name: "Almofada Suede Lisa", imageId: 'almofada-suede-lisa-018', badge: 'FARDO/60' },
-        { id: "020", name: "Almofada Estampada", imageId: 'product3', badge: 'FARDO/60' },
-        { id: "015", name: "Almofada Suede 45x45", imageId: 'product4', badge: 'FARDO/60' },
-        { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5', badge: 'FARDO/60' },
-        { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6', badge: 'FARDO/60' },
+        { id: "008", name: "Almofada personalizada de time", imageId: 'almofada-time-008' },
+        { id: "018", name: "Almofada Suede Lisa", imageId: 'almofada-suede-lisa-018' },
+        { id: "020", name: "Almofada Estampada", imageId: 'product3' },
+        { id: "015", name: "Almofada Suede 45x45", imageId: 'product4' },
+        { id: "039", name: "Almofada Personalizada de Time", imageId: 'product5' },
+        { id: "037", name: "Almofada Personalizada Infantil", imageId: 'product6' },
     ],
     'cama-pet': [
-        { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032', badge: 'FARDO/50' },
-        { id: "031", name: "Cama Pet Lisa", imageId: 'cama-pet-lisa-031', badge: 'FARDO/50' },
+        { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032' },
+        { id: "031", name: "Cama Pet Lisa", imageId: 'cama-pet-lisa-031' },
     ],
     capas: [
-        { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027', badge: 'FARDO/100' },
+        { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027' },
     ],
     travesseiros: [
-        { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo', badge: 'FARDO/20' },
-        { id: "002", name: "Travesseiro Nilo Prabom", imageId: 'travesseiro-prabom', badge: 'FARDO/20' },
+        { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo' },
+        { id: "002", name: "Travesseiro Nilo Prabom", imageId: 'travesseiro-prabom' },
     ],
     refil: [
-        { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt', badge: 'FARDO/50' },
+        { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt' },
     ],
     fibra: [
-        { id: "013", name: "Fibra de Silicone", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
+        { id: "013", name: "Fibra de Silicone", imageId: 'fibra-siliconada' },
     ],
 };
 

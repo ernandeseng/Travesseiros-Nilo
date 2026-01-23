@@ -64,15 +64,14 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                                <CardHeader className="p-0">
+                                <CardHeader className="p-0 relative aspect-square">
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
                                       alt={product.name}
-                                      width={500}
-                                      height={500}
+                                      fill
                                       data-ai-hint={image.imageHint}
-                                      className="rounded-t-lg object-cover aspect-square"
+                                      className="rounded-t-lg object-cover"
                                     />
                                   )}
                                 </CardHeader>
@@ -85,10 +84,7 @@ export function Catalog() {
                                     {product.name}
                                   </CardTitle>
                                 </CardContent>
-                                <CardFooter className="p-4 flex justify-between items-center">
-                                  <Badge variant="outline">
-                                    {product.badge}
-                                  </Badge>
+                                <CardFooter className="p-4 flex justify-end">
                                   <Button
                                     asChild
                                     variant="default"
