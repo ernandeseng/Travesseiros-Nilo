@@ -47,7 +47,7 @@ export const catalogCategories = [
 
 export const productsByCategory = {
     almofadas: [
-        { id: "035", name: "Almofada Matelada", imageId: 'product1', badge: 'FARDO/60' },
+        { id: "008", name: "Almofada personalizada de time", imageId: 'almofada-time-008', badge: 'FARDO/60' },
         { id: "013", name: "Almofada Baguete Suede", imageId: 'product2', badge: 'FARDO/60' },
         { id: "014", name: "Almofada Rústica", imageId: 'product3', badge: 'FARDO/60' },
         { id: "015", name: "Almofada Suede 45x45", imageId: 'product4', badge: 'FARDO/60' },
