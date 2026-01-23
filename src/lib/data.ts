@@ -66,7 +66,7 @@ export const productsByCategory = {
         { id: "002", name: "Travesseiro Nilo Prabom", imageId: 'travesseiro-prabom', badge: 'FARDO/20' },
     ],
     refil: [
-        { id: "R01", name: "Refil de Almofada TNT 45x45", imageId: 'refil-tnt', badge: 'FARDO/50' },
+        { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt', badge: 'FARDO/50' },
     ],
     fibra: [
         { id: "F01", name: "Fibra Siliconada Pacote 1kg", imageId: 'fibra-siliconada', badge: 'PACOTE/1kg' },
