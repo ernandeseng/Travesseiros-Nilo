@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { productsByCategory, catalogCategories } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,7 @@ import {
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
-import { Search } from 'lucide-react';
+import { Search, ArrowLeft } from 'lucide-react';
 
 const allProducts = Object.values(productsByCategory).flat();
 
@@ -40,6 +41,15 @@ export default function CatalogoPage() {
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-6 md:py-12">
+      <div className="mb-6">
+        <Button asChild variant="outline">
+          <Link href="/">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Voltar para Home
+          </Link>
+        </Button>
+      </div>
+
       <div className="text-center mb-8">
         <h1 className="text-3xl lg:text-4xl font-serif font-bold italic text-secondary mb-2">
           Catálogo Completo
