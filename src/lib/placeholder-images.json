@@ -81,7 +81,7 @@
     {
       "id": "testimonial3",
       "description": "Portrait of Mariana Costa",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "pet-bed-estampada-blue",
       "description": "Blue patterned pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pet bed"
     },
     {
@@ -159,7 +159,7 @@
     {
       "id": "fibra-siliconada-2",
       "description": "Another siliconized fiber pack",
-      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "siliconized fiber"
     },
     {
@@ -293,6 +293,54 @@
       "description": "Almofada Personalizada",
       "imageUrl": "https://i.ibb.co/WWwTvHCp/image.png",
       "imageHint": "custom cushion"
+    },
+    {
+      "id": "cama-pet-lisa-45x45-047",
+      "description": "Cama Pet Lisa 45x45",
+      "imageUrl": "https://i.ibb.co/f5ckBDv/image.png",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "cama-pet-estampada-45x45-048",
+      "description": "Cama Pet Estampada 45x45",
+      "imageUrl": "https://i.ibb.co/B5PMj81v/image.png",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "toalha-mesa-oxford-4-cadeiras-049",
+      "description": "Toalha de Mesa Oxford 4 Cadeiras",
+      "imageUrl": "https://i.ibb.co/5Wdz72LF/image.png",
+      "imageHint": "tablecloth"
+    },
+    {
+      "id": "toalha-mesa-oxford-6-cadeiras-050",
+      "description": "Toalha de Mesa Oxford 6 Cadeiras",
+      "imageUrl": "https://i.ibb.co/DfdwJRgR/image.png",
+      "imageHint": "tablecloth"
+    },
+    {
+      "id": "toalha-mesa-linhao-4-cadeiras-051",
+      "description": "Toalha de Mesa Tecido Linhão 4 Cadeiras",
+      "imageUrl": "https://i.ibb.co/NQsz1qT/image.png",
+      "imageHint": "tablecloth"
+    },
+    {
+      "id": "toalha-mesa-linhao-6-cadeiras-052",
+      "description": "Toalha de Mesa Tecido Linhão 6 Cadeiras",
+      "imageUrl": "https://i.ibb.co/T68RZbt/image.png",
+      "imageHint": "tablecloth"
+    },
+    {
+      "id": "manta-casal-lisa-053",
+      "description": "Manta Casal Lisa 1.80x2.00",
+      "imageUrl": "https://i.ibb.co/9k0hBDwb/image.png",
+      "imageHint": "blanket"
+    },
+    {
+      "id": "manta-casal-estampada-054",
+      "description": "Manta Casal Estampada 1.80x2.00",
+      "imageUrl": "https://i.ibb.co/VYXyYzfC/image.png",
+      "imageHint": "patterned blanket"
     }
   ]
 }

@@ -43,6 +43,8 @@ export const catalogCategories = [
     { id: 'travesseiros', name: 'Travesseiros' },
     { id: 'refil', name: 'Refil' },
     { id: 'fibra', name: 'Fibra' },
+    { id: 'toalha-de-mesa', name: 'Toalhas de Mesa' },
+    { id: 'manta', name: 'Mantas' },
 ];
 
 export const productsByCategory = {
@@ -59,6 +61,8 @@ export const productsByCategory = {
     'cama-pet': [
         { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032' },
         { id: "031", name: "Cama Pet Lisa", imageId: 'cama-pet-lisa-031' },
+        { id: "047", name: "Cama Pet Lisa 45x45", imageId: 'cama-pet-lisa-45x45-047' },
+        { id: "048", name: "Cama Pet Estampada 45x45", imageId: 'cama-pet-estampada-45x45-048' },
     ],
     capas: [
         { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027' },
@@ -88,6 +92,16 @@ export const productsByCategory = {
     fibra: [
         { id: "013", name: "Fibra de Silicone", imageId: 'fibra-siliconada' },
     ],
+    'toalha-de-mesa': [
+        { id: "049", name: "Toalha de Mesa Oxford 4 Cadeiras", imageId: 'toalha-mesa-oxford-4-cadeiras-049' },
+        { id: "050", name: "Toalha de Mesa Oxford 6 Cadeiras", imageId: 'toalha-mesa-oxford-6-cadeiras-050' },
+        { id: "051", name: "Toalha de Mesa Tecido Linhão 4 Cadeiras", imageId: 'toalha-mesa-linhao-4-cadeiras-051' },
+        { id: "052", name: "Toalha de Mesa Tecido Linhão 6 Cadeiras", imageId: 'toalha-mesa-linhao-6-cadeiras-052' },
+    ],
+    manta: [
+        { id: "053", name: "Manta Casal Lisa 1.80x2.00", imageId: 'manta-casal-lisa-053' },
+        { id: "054", name: "Manta Casal Estampada 1.80x2.00", imageId: 'manta-casal-estampada-054' },
+    ]
 };
 
 export const testimonials = [
