@@ -72,7 +72,7 @@ export function Catalog() {
                                       width={500}
                                       height={500}
                                       data-ai-hint={image.imageHint}
-                                      className="rounded-t-lg object-cover aspect-square"
+                                      className="rounded-t-lg object-contain aspect-square"
                                     />
                                   )}
                                 </CardHeader>
