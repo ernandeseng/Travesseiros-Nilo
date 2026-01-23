@@ -63,6 +63,11 @@ export const productsByCategory = {
     travesseiros: [
         { id: "001", name: "Travesseiro Nilo", imageId: 'travesseiro-nilo' },
         { id: "002", name: "Travesseiro Nilo Prabom", imageId: 'travesseiro-prabom' },
+        { id: "003", name: "Travesseiro Nilo Toque de Plumas", imageId: "travesseiro-toque-de-plumas" },
+        { id: "004", name: "Travesseiro Nilo Pop", imageId: "travesseiro-nilo-pop" },
+        { id: "005", name: "Travesseiros de Cor", imageId: "travesseiros-de-cor" },
+        { id: "006", name: "Travesseiro de Personagem", imageId: "travesseiro-personagem" },
+        { id: "007", name: "Travesseiros de Times", imageId: "travesseiros-times" },
     ],
     refil: [
         { id: "015", name: "Refil TNT Para Almofada 45x45", imageId: 'refil-tnt' },

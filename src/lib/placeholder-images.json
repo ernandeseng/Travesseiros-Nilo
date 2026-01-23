@@ -75,37 +75,37 @@
     {
       "id": "testimonial2",
       "description": "Portrait of Carlos Pereira",
-      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY4Nzg2NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY4Nzg2NzU3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "testimonial3",
       "description": "Portrait of Mariana Costa",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2ODc2MDg2NHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "testimonial4",
       "description": "Portrait of João Ferreira",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njg3ODY3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3Njg3ODY3NTd8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "final-cta-bg",
       "description": "A pile of comfortable pillows",
-      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pillows pile"
     },
     {
       "id": "pet-bed-lisa-blue",
       "description": "Blue plain pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1600369671236-e74521d4b6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600369671236-e74521d4b6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pet bed"
     },
     {
       "id": "pet-bed-lisa-beige",
       "description": "Beige plain pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1600369671270-e07f80b6ae49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGV0JTIwYmVkfGVufDB8fHx8MTc2ODg2ODMzNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600369671270-e07f80b6ae49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGV0JTIwYmVkfGVufDB8fHx8MTc2ODg2ODMzNnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pet bed"
     },
     {
@@ -135,7 +135,7 @@
     {
       "id": "travesseiro-fibra",
       "description": "Siliconized fiber pillow",
-      "imageUrl": "https://images.unsplash.com/photo-1685122121719-c513a7f1a845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbG93fGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1685122121719-c513a7f1a845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbG93fGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "pillow"
     },
     {
@@ -147,7 +147,7 @@
     {
       "id": "refil-tnt-2",
       "description": "Another TNT cushion refill",
-      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "cushion refill"
     },
     {
@@ -159,7 +159,7 @@
     {
       "id": "fibra-siliconada-2",
       "description": "Another siliconized fiber pack",
-      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "siliconized fiber"
     },
     {
@@ -185,6 +185,36 @@
       "description": "Cama Pet Lisa",
       "imageUrl": "https://i.imgur.com/sYgPbtU.jpeg",
       "imageHint": "pet bed"
+    },
+    {
+      "id": "travesseiro-toque-de-plumas",
+      "description": "Travesseiro Nilo Toque de Plumas",
+      "imageUrl": "https://i.ibb.co/v641hGkq/image.png",
+      "imageHint": "feather pillow"
+    },
+    {
+      "id": "travesseiro-nilo-pop",
+      "description": "Travesseiro Nilo Pop",
+      "imageUrl": "https://i.ibb.co/YB80xFd0/image.png",
+      "imageHint": "pop pillow"
+    },
+    {
+      "id": "travesseiros-de-cor",
+      "description": "Travesseiros de Cor",
+      "imageUrl": "https://i.ibb.co/DHJ2zCN2/image.png",
+      "imageHint": "colored pillows"
+    },
+    {
+      "id": "travesseiro-personagem",
+      "description": "Travesseiro de Personagem",
+      "imageUrl": "https://i.ibb.co/0PwxFpm/image.png",
+      "imageHint": "character pillow"
+    },
+    {
+      "id": "travesseiros-times",
+      "description": "Travesseiros de Times",
+      "imageUrl": "https://i.ibb.co/LDCrt9n5/image.png",
+      "imageHint": "team pillows"
     }
   ]
 }
