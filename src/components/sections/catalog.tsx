@@ -64,7 +64,7 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                                <CardHeader className="p-0 relative aspect-square">
+                                <CardHeader className="p-0 relative h-80">
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
