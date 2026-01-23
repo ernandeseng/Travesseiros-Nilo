@@ -45,6 +45,8 @@ export const catalogCategories = [
     { id: 'fibra', name: 'Fibra' },
     { id: 'toalha-de-mesa', name: 'Toalhas de Mesa' },
     { id: 'manta', name: 'Mantas' },
+    { id: 'cama', name: 'Cama' },
+    { id: 'utilidades', name: 'Utilidades' },
 ];
 
 export const productsByCategory = {
@@ -101,6 +103,13 @@ export const productsByCategory = {
     manta: [
         { id: "053", name: "Manta Casal Lisa 1.80x2.00", imageId: 'manta-casal-lisa-053' },
         { id: "054", name: "Manta Casal Estampada 1.80x2.00", imageId: 'manta-casal-estampada-054' },
+    ],
+    cama: [
+        { id: "055", name: "Lençol Casal", imageId: 'lencol-casal-055' },
+        { id: "056", name: "Cobre Leito 1.60x2.40", imageId: 'cobre-leito-056' },
+    ],
+    utilidades: [
+        { id: "057", name: "Vedador de Porta", imageId: 'vedador-de-porta-057' },
     ]
 };
 
