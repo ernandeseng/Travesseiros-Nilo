@@ -78,14 +78,14 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col group overflow-hidden">
-                                <CardHeader className="p-0 relative aspect-square">
+                                <CardHeader className="p-0 relative h-80">
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
                                       alt={product.name}
                                       fill
                                       data-ai-hint={image.imageHint}
-                                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                      className="object-contain"
                                     />
                                   )}
                                 </CardHeader>
