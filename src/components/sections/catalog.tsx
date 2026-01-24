@@ -78,14 +78,15 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col group overflow-hidden">
-                                <CardHeader className="p-0 relative h-80">
+                                <CardHeader className="p-0 overflow-hidden">
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
                                       alt={product.name}
-                                      fill
+                                      width={500}
+                                      height={500}
                                       data-ai-hint={image.imageHint}
-                                      className="object-contain"
+                                      className="object-scale-down w-full h-auto block"
                                     />
                                   )}
                                 </CardHeader>

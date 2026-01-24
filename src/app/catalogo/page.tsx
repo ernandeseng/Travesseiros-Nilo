@@ -94,7 +94,7 @@ export default function CatalogoPage() {
 
       {/* Product Grid */}
       {filteredProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-start">
           {filteredProducts.map((product) => {
             const image = PlaceHolderImages.find((p) => p.id === product.imageId);
             return (
@@ -102,14 +102,15 @@ export default function CatalogoPage() {
                 key={product.id}
                 className="text-left flex flex-col group overflow-hidden"
               >
-                <CardHeader className="p-0 relative h-80">
+                <CardHeader className="p-0 overflow-hidden">
                   {image && (
                     <Image
                       src={image.imageUrl}
                       alt={product.name}
-                      fill
+                      width={500}
+                      height={500}
                       data-ai-hint={image.imageHint}
-                      className="object-contain"
+                      className="object-scale-down w-full h-auto block"
                     />
                   )}
                 </CardHeader>
