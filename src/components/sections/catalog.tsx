@@ -78,7 +78,7 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col group overflow-hidden">
-                                <CardHeader className="p-0 overflow-hidden">
+                                <CardHeader className="p-0 overflow-hidden aspect-square">
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
@@ -86,7 +86,7 @@ export function Catalog() {
                                       width={500}
                                       height={500}
                                       data-ai-hint={image.imageHint}
-                                      className="object-scale-down w-full h-auto block"
+                                      className="w-full h-full object-cover"
                                     />
                                   )}
                                 </CardHeader>
