@@ -19,6 +19,7 @@ import {
 } from "@/components/ui/carousel";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingBag, BookOpen } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export function Catalog() {
   return (
@@ -48,6 +49,7 @@ export function Catalog() {
               productsByCategory[
                 category.id as keyof typeof productsByCategory
               ].slice(0, 5);
+            const isPillowCategory = category.id === 'travesseiros';
             return (
               <div key={category.id}>
                 <div className="flex justify-between items-center mb-6">
@@ -78,7 +80,10 @@ export function Catalog() {
                           >
                             <div className="p-1 h-full">
                               <Card className="text-left h-full flex flex-col group overflow-hidden">
-                                <CardHeader className="p-0 overflow-hidden md:aspect-square">
+                                <CardHeader className={cn(
+                                  "p-0 overflow-hidden",
+                                  isPillowCategory ? "md:aspect-square" : "aspect-square"
+                                )}>
                                   {image && (
                                     <Image
                                       src={image.imageUrl}
@@ -86,7 +91,12 @@ export function Catalog() {
                                       width={500}
                                       height={500}
                                       data-ai-hint={image.imageHint}
-                                      className="w-full h-auto md:h-full object-scale-down md:object-cover"
+                                      className={cn(
+                                        "w-full",
+                                        isPillowCategory 
+                                          ? "h-auto object-scale-down md:h-full md:object-cover" 
+                                          : "h-full object-cover"
+                                      )}
                                     />
                                   )}
                                 </CardHeader>
