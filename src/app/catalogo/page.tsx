@@ -97,20 +97,13 @@ export default function CatalogoPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-start">
           {filteredProducts.map((product) => {
             const image = PlaceHolderImages.find((p) => p.id === product.imageId);
-            const categoryOfProduct = Object.keys(productsByCategory).find(cat => 
-                productsByCategory[cat as keyof typeof productsByCategory].some(p => p.id === product.id)
-            );
-            const isPillowCategory = categoryOfProduct === 'travesseiros';
             
             return (
               <Card
                 key={product.id}
                 className="text-left flex flex-col group overflow-hidden"
               >
-                <CardHeader className={cn(
-                  "p-0 overflow-hidden",
-                  isPillowCategory ? "md:aspect-square" : "aspect-square"
-                )}>
+                <CardHeader className={cn("p-0 overflow-hidden aspect-square")}>
                   {image && (
                     <Image
                       src={image.imageUrl}
@@ -118,12 +111,7 @@ export default function CatalogoPage() {
                       width={500}
                       height={500}
                       data-ai-hint={image.imageHint}
-                      className={cn(
-                        "w-full",
-                        isPillowCategory 
-                          ? "h-auto object-scale-down md:h-full md:object-cover" 
-                          : "h-full object-cover"
-                      )}
+                      className={cn("w-full h-full object-cover")}
                     />
                   )}
                 </CardHeader>
