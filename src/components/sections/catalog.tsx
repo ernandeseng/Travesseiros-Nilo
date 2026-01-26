@@ -82,8 +82,7 @@ export function Catalog() {
                               <Card className="text-left h-full flex flex-col group overflow-hidden">
                                 <CardHeader
                                   className={cn(
-                                    "p-0 overflow-hidden",
-                                    isPillowCategory ? "aspect-auto" : "aspect-square",
+                                    "p-0 overflow-hidden aspect-square",
                                     "md:aspect-auto md:h-80"
                                   )}
                                 >
@@ -95,11 +94,7 @@ export function Catalog() {
                                       height={500}
                                       data-ai-hint={image.imageHint}
                                       className={cn(
-                                        "w-full",
-                                        isPillowCategory
-                                          ? "h-auto object-scale-down"
-                                          : "h-full object-cover",
-                                        "md:h-full md:object-contain"
+                                        "w-full h-full object-cover"
                                       )}
                                     />
                                   )}
