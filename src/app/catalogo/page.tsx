@@ -102,7 +102,7 @@ export default function CatalogoPage() {
                 key={product.id}
                 className="text-left flex flex-col group overflow-hidden"
               >
-                <CardHeader className="p-0 overflow-hidden aspect-square">
+                <CardHeader className="p-0 overflow-hidden md:aspect-square">
                   {image && (
                     <Image
                       src={image.imageUrl}
@@ -110,7 +110,7 @@ export default function CatalogoPage() {
                       width={500}
                       height={500}
                       data-ai-hint={image.imageHint}
-                      className="w-full h-full object-cover"
+                      className="w-full h-auto md:h-full object-scale-down md:object-cover"
                     />
                   )}
                 </CardHeader>
