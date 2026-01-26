@@ -60,7 +60,7 @@ export default function CatalogoPage() {
       </div>
 
       {/* Search and Filter */}
-      <div className="mb-8 flex flex-col md:flex-row gap-4 sticky top-16 bg-background/95 backdrop-blur-sm z-10 py-4">
+      <div className="mb-8 flex flex-col md:flex-row gap-4">
         <div className="relative flex-1">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
           <Input
