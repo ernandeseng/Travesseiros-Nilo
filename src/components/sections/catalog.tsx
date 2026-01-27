@@ -78,13 +78,10 @@ export function Catalog() {
                             key={product.id}
                             className="md:basis-1/2 lg:basis-1/3"
                           >
-                            <div className="p-1 h-full">
-                              <Card className="text-left h-full flex flex-col group overflow-hidden">
+                            <div className="p-1">
+                              <Card className="text-left flex flex-col group overflow-hidden">
                                 <CardHeader
-                                  className={cn(
-                                    "p-0 overflow-hidden aspect-square",
-                                    "md:aspect-auto md:h-80"
-                                  )}
+                                  className="p-0 overflow-hidden"
                                 >
                                   {image && (
                                     <Image
@@ -93,9 +90,7 @@ export function Catalog() {
                                       width={500}
                                       height={500}
                                       data-ai-hint={image.imageHint}
-                                      className={cn(
-                                        "w-full h-full object-contain"
-                                      )}
+                                      className="w-full h-auto"
                                     />
                                   )}
                                 </CardHeader>
