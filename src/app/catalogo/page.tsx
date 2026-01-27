@@ -112,7 +112,7 @@ export default function CatalogoPage() {
                       width={500}
                       height={500}
                       data-ai-hint={image.imageHint}
-                      className={cn("w-full h-full object-cover")}
+                      className={cn("w-full h-full object-contain")}
                     />
                   )}
                 </CardHeader>

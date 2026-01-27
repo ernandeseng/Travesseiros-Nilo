@@ -94,7 +94,7 @@ export function Catalog() {
                                       height={500}
                                       data-ai-hint={image.imageHint}
                                       className={cn(
-                                        "w-full h-full object-cover"
+                                        "w-full h-full object-contain"
                                       )}
                                     />
                                   )}
