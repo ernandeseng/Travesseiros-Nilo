@@ -61,8 +61,8 @@ export const productsByCategory = {
     'cama-pet': [
         { id: "032", name: "Cama Pet Estampada", imageId: 'pet-bed-estampada-032' },
         { id: "031", name: "Cama Pet Lisa", imageId: 'cama-pet-lisa-031' },
-        { id: "047", name: "Cama Pet Lisa 45x45", imageId: 'cama-pet-lisa-45x45-047' },
-        { id: "048", name: "Cama Pet Estampada 45x45", imageId: 'cama-pet-estampada-45x45-048' },
+        { id: "047", name: "Cama Pet 50x50", imageId: 'cama-pet-lisa-45x45-047' },
+        { id: "048", name: "Cama Pet Estampada 50x50", imageId: 'cama-pet-estampada-45x45-048' },
     ],
     capas: [
         { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027' },
