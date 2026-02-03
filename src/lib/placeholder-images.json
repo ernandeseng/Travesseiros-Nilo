@@ -31,34 +31,10 @@
       "imageHint": "team cushion"
     },
     {
-      "id": "almofada-suede-lisa-018",
-      "description": "Almofada Suede Lisa",
-      "imageUrl": "https://i.imgur.com/c2UTlTp.jpeg",
-      "imageHint": "suede cushion"
-    },
-    {
-      "id": "product2",
-      "description": "Suede baguette cushion",
-      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion pillow"
-    },
-    {
       "id": "product3",
       "description": "Almofada Estampada",
       "imageUrl": "https://i.imgur.com/NApT4Ky.jpeg",
       "imageHint": "patterned cushion"
-    },
-    {
-      "id": "product4",
-      "description": "Square suede cushion",
-      "imageUrl": "https://images.unsplash.com/photo-1629949008195-c15c25c5e9e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion pillow"
-    },
-    {
-      "id": "product5",
-      "description": "Custom sports team cushion",
-      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXNoaW9uJTIwcGlsbG93fGVufDB8fHx8MTc2ODg1Mzc0NHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion pillow"
     },
     {
       "id": "testimonial1",
@@ -87,38 +63,8 @@
     {
       "id": "final-cta-bg",
       "description": "A pile of comfortable pillows",
-      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1615222599276-3d8149bc51ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaWxsb3dzJTIwcGlsZXxlbnwwfHx8fDE3Njg4NTM3NDR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pillows pile"
-    },
-    {
-      "id": "pet-bed-lisa-blue",
-      "description": "Blue plain pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1600369671236-e74521d4b6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "pet bed"
-    },
-    {
-      "id": "pet-bed-lisa-beige",
-      "description": "Beige plain pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1600369671270-e07f80b6ae49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGV0JTIwYmVkfGVufDB8fHx8MTc2ODg2ODMzNnww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "pet bed"
-    },
-    {
-      "id": "pet-bed-estampada-pink",
-      "description": "Pink patterned pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1621682877540-edd7c9dae368?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "pet bed"
-    },
-    {
-      "id": "pet-bed-estampada-blue",
-      "description": "Blue patterned pet bed",
-      "imageUrl": "https://images.unsplash.com/photo-1581888475780-27b6b0bc3690?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXQlMjBiZWR8ZW58MHx8fHwxNzY4ODY4MzM2fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "pet bed"
-    },
-    {
-      "id": "capa-suede",
-      "description": "Suede cushion cover",
-      "imageUrl": "https://images.unsplash.com/photo-1723399973151-7adde0c7ed1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjdXNoaW9uJTIwY292ZXJ8ZW58MHx8fHwxNzY5MDI0NjY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion cover"
     },
     {
       "id": "travesseiro-nilo",
@@ -127,58 +73,16 @@
       "imageHint": "nilo pillow"
     },
     {
-      "id": "travesseiro-fibra",
-      "description": "Siliconized fiber pillow",
-      "imageUrl": "https://images.unsplash.com/photo-1685122121719-c513a7f1a845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlsbG93fGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "pillow"
-    },
-    {
-      "id": "refil-tnt",
-      "description": "Refil TNT Para Almofada 45x45",
-      "imageUrl": "https://i.imgur.com/YNyqAO9.png",
-      "imageHint": "cushion refill"
-    },
-    {
-      "id": "refil-tnt-2",
-      "description": "Another TNT cushion refill",
-      "imageUrl": "https://images.unsplash.com/photo-1622483122983-b04c8eec8f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXNoaW9uJTIwcmVmaWxsfGVufDB8fHx8MTc2OTAyNDY2OHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cushion refill"
-    },
-    {
       "id": "fibra-siliconada",
       "description": "Fibra de Silicone",
       "imageUrl": "https://i.imgur.com/HO5eBgu.png",
       "imageHint": "siliconized fiber"
     },
     {
-      "id": "fibra-siliconada-2",
-      "description": "Another siliconized fiber pack",
-      "imageUrl": "https://images.unsplash.com/photo-1559394452-087c19c260ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsaWNvbml6ZWQlMjBmaWJlcnxlbnwwfHx8fDE3NjkwMjQ2Njh8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "siliconized fiber"
-    },
-    {
-      "id": "capa-estampada-027",
-      "description": "Capa de Almofada Estampada",
-      "imageUrl": "https://i.imgur.com/n5XnSsv.jpeg",
-      "imageHint": "cushion cover"
-    },
-    {
       "id": "travesseiro-prabom",
       "description": "Travesseiro Nilo Prabom",
       "imageUrl": "https://i.imgur.com/FvGaCer.jpeg",
       "imageHint": "nilo pillow"
-    },
-    {
-      "id": "pet-bed-estampada-032",
-      "description": "Cama Pet Estampada",
-      "imageUrl": "https://i.imgur.com/9GwVnm5.jpeg",
-      "imageHint": "pet bed"
-    },
-    {
-      "id": "cama-pet-lisa-031",
-      "description": "Cama Pet Lisa",
-      "imageUrl": "https://i.imgur.com/sYgPbtU.jpeg",
-      "imageHint": "pet bed"
     },
     {
       "id": "travesseiro-toque-de-plumas",
@@ -229,12 +133,6 @@
       "imageHint": "travel pillow"
     },
     {
-      "id": "refil-tnt-50x50",
-      "description": "Refil TNT Para Almofada 50x50",
-      "imageUrl": "https://i.ibb.co/WNnjtRnG/image.png",
-      "imageHint": "cushion refill"
-    },
-    {
       "id": "travesseiro-xuxao-infantil",
       "description": "Travesseiro Xuxão Infantil",
       "imageUrl": "https://i.ibb.co/G43HNfrr/image.png",
@@ -247,112 +145,184 @@
       "imageHint": "cushion refill"
     },
     {
-      "id": "capa-baguete-martelada-040",
-      "description": "Capa para Baguete Martelada",
-      "imageUrl": "https://i.ibb.co/rfxZD7HR/image.png",
-      "imageHint": "cushion cover"
+      "id": "vedador-de-porta-044",
+      "description": "Vedador de Porta",
+      "imageUrl": "https://i.ibb.co/PsgW1jv5/image.png",
+      "imageHint": "door seal"
     },
     {
-      "id": "capa-baguete-rustica-041",
-      "description": "Capa para Baguete Rústica",
-      "imageUrl": "https://i.ibb.co/cG1C3zb/image.png",
-      "imageHint": "cushion cover"
+      "id": "almofada-baguete-suede-019",
+      "description": "Almofada Baguete Suede 30x42",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "baguette cushion"
     },
     {
-      "id": "almofada-suede-45x45-042",
+      "id": "almofada-baguete-matelada-020",
+      "description": "Almofada Baguete Matelada 30x42",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "quilted baguette cushion"
+    },
+    {
+      "id": "almofada-baguete-rustica-021",
+      "description": "Almofada Baguete Rústica 30x42",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "rustic baguette cushion"
+    },
+    {
+      "id": "almofada-suede-45x45-025",
       "description": "Almofadas Suede 45x45",
       "imageUrl": "https://i.ibb.co/35vHzBVZ/image.png",
       "imageHint": "suede cushion"
     },
     {
-      "id": "almofada-matelada-45x45-043",
+      "id": "almofada-matelada-45x45-026",
       "description": "Almofadas Matelada 45x45",
       "imageUrl": "https://i.ibb.co/NdZn34wB/image.png",
       "imageHint": "quilted cushion"
     },
     {
-      "id": "capa-almofada-matelada-45x45-057",
-      "description": "Capas para Almofadas Matelada 45x45",
-      "imageUrl": "https://i.ibb.co/TMk81Czw/image.png",
-      "imageHint": "cushion cover"
+      "id": "almofadas-rustica-027",
+      "description": "Almofadas Rústica 45x45",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "rustic cushion"
     },
     {
-      "id": "capa-almofada-rustica-045",
-      "description": "Capas para Almofadas Rústicas",
-      "imageUrl": "https://i.ibb.co/3mz70rck/image.png",
-      "imageHint": "cushion cover"
-    },
-    {
-      "id": "almofada-personalizada-046",
+      "id": "almofada-personalizada-031",
       "description": "Almofada Personalizada",
       "imageUrl": "https://i.ibb.co/WWwTvHCp/image.png",
       "imageHint": "custom cushion"
     },
     {
-      "id": "cama-pet-lisa-45x45-047",
-      "description": "Cama Pet Lisa 45x45",
+      "id": "capa-protetora-travesseiro-017",
+      "description": "Capa Protetora para Travesseiro",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "pillow protector"
+    },
+    {
+      "id": "porta-travesseiro-matelado-018",
+      "description": "Porta Travesseiro Matelado",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "quilted pillow case"
+    },
+    {
+      "id": "capa-baguete-suede-022",
+      "description": "Capa para Baguete Suede 30x42",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "suede cushion cover"
+    },
+    {
+      "id": "capa-baguete-matelada-023",
+      "description": "Capa para Baguete Matelada 30x42",
+      "imageUrl": "https://i.ibb.co/rfxZD7HR/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capa-baguete-rustica-024",
+      "description": "Capa para Baguete Rústica 30x42",
+      "imageUrl": "https://i.ibb.co/cG1C3zb/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capas-almofada-suede-028",
+      "description": "Capas para Almofadas Suede 45x45",
+      "imageUrl": "https://placehold.co/500x500/F5F5F5/424242?text=Nilo",
+      "imageHint": "suede cushion cover"
+    },
+    {
+      "id": "capas-almofada-matelada-029",
+      "description": "Capas para Almofadas Matelada 45x45",
+      "imageUrl": "https://i.ibb.co/TMk81Czw/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "capas-almofada-rustica-030",
+      "description": "Capas para Almofadas Rústica 45x45",
+      "imageUrl": "https://i.ibb.co/3mz70rck/image.png",
+      "imageHint": "cushion cover"
+    },
+    {
+      "id": "refil-tnt-50x50-014",
+      "description": "Refil TNT 50x50",
+      "imageUrl": "https://i.ibb.co/WNnjtRnG/image.png",
+      "imageHint": "cushion refill"
+    },
+    {
+      "id": "refil-tnt-45x45-015",
+      "description": "Refil para Almofada TNT 45x45",
+      "imageUrl": "https://i.imgur.com/YNyqAO9.png",
+      "imageHint": "cushion refill"
+    },
+    {
+      "id": "cama-pet-lisa-032",
+      "description": "Cama Pet Lisa 50x60",
+      "imageUrl": "https://i.imgur.com/sYgPbtU.jpeg",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "cama-pet-estampada-033",
+      "description": "Cama Pet Estampada 50x60",
+      "imageUrl": "https://i.imgur.com/9GwVnm5.jpeg",
+      "imageHint": "pet bed"
+    },
+    {
+      "id": "cama-pet-lisa-034",
+      "description": "Cama Pet Lisa 50x50",
       "imageUrl": "https://i.ibb.co/f5ckBDv/image.png",
       "imageHint": "pet bed"
     },
     {
-      "id": "cama-pet-estampada-45x45-048",
-      "description": "Cama Pet Estampada 45x45",
+      "id": "cama-pet-estampada-035",
+      "description": "Cama Pet Estampada 50x50",
       "imageUrl": "https://i.ibb.co/B5PMj81v/image.png",
       "imageHint": "pet bed"
     },
     {
-      "id": "toalha-mesa-oxford-4-cadeiras-049",
+      "id": "toalha-mesa-oxford-4-cadeiras-036",
       "description": "Toalha de Mesa Oxford 4 Cadeiras",
       "imageUrl": "https://i.ibb.co/5Wdz72LF/image.png",
       "imageHint": "tablecloth"
     },
     {
-      "id": "toalha-mesa-oxford-6-cadeiras-050",
+      "id": "toalha-mesa-oxford-6-cadeiras-037",
       "description": "Toalha de Mesa Oxford 6 Cadeiras",
       "imageUrl": "https://i.ibb.co/DfdwJRgR/image.png",
       "imageHint": "tablecloth"
     },
     {
-      "id": "toalha-mesa-linhao-4-cadeiras-051",
+      "id": "toalha-mesa-linhao-4-cadeiras-038",
       "description": "Toalha de Mesa Tecido Linhão 4 Cadeiras",
       "imageUrl": "https://i.ibb.co/NQsz1qT/image.png",
       "imageHint": "tablecloth"
     },
     {
-      "id": "toalha-mesa-linhao-6-cadeiras-052",
+      "id": "toalha-mesa-linhao-6-cadeiras-039",
       "description": "Toalha de Mesa Tecido Linhão 6 Cadeiras",
       "imageUrl": "https://i.ibb.co/T68RZbt/image.png",
       "imageHint": "tablecloth"
     },
     {
-      "id": "manta-casal-lisa-053",
+      "id": "manta-casal-lisa-040",
       "description": "Manta Casal Lisa 1.80x2.00",
       "imageUrl": "https://i.ibb.co/9k0hBDwb/image.png",
       "imageHint": "blanket"
     },
     {
-      "id": "manta-casal-estampada-054",
+      "id": "manta-casal-estampada-041",
       "description": "Manta Casal Estampada 1.80x2.00",
       "imageUrl": "https://i.ibb.co/VYXyYzfC/image.png",
       "imageHint": "patterned blanket"
     },
     {
-      "id": "lencol-casal-055",
+      "id": "lencol-casal-042",
       "description": "Lençol Casal",
       "imageUrl": "https://i.ibb.co/6RyFbDhD/image.png",
       "imageHint": "bed sheet"
     },
     {
-      "id": "cobre-leito-056",
+      "id": "cobre-leito-043",
       "description": "Cobre Leito 1.60x2.40",
       "imageUrl": "https://i.ibb.co/TDJHFcty/image.png",
       "imageHint": "bedspread"
-    },
-    {
-      "id": "vedador-de-porta-044",
-      "description": "Vedador de Porta",
-      "imageUrl": "https://i.ibb.co/PsgW1jv5/image.png",
-      "imageHint": "door seal"
     }
   ]
 }
