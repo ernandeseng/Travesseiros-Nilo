@@ -68,7 +68,7 @@ export const productsByCategory = {
         { id: "027", name: "Capa de Almofada Estampada", imageId: 'capa-estampada-027' },
         { id: "040", name: "Capa para Baguete Martelada", imageId: "capa-baguete-martelada-040" },
         { id: "041", name: "Capa para Baguete Rústica", imageId: "capa-baguete-rustica-041" },
-        { id: "044", name: "Capas para Almofadas Matelada 45x45", imageId: "capa-almofada-matelada-45x45-044" },
+        { id: "057", name: "Capas para Almofadas Matelada 45x45", imageId: "capa-almofada-matelada-45x45-057" },
         { id: "045", name: "Capas para Almofadas Rústicas", imageId: "capa-almofada-rustica-045" },
     ],
     travesseiros: [
@@ -107,7 +107,7 @@ export const productsByCategory = {
         { id: "056", name: "Cobre Leito 1.60x2.40", imageId: 'cobre-leito-056' },
     ],
     utilidades: [
-        { id: "057", name: "Vedador de Porta", imageId: 'vedador-de-porta-057' },
+        { id: "044", name: "Vedador de Porta", imageId: 'vedador-de-porta-044' },
     ]
 };
 
