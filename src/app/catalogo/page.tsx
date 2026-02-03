@@ -18,7 +18,7 @@ import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { Search, ArrowLeft } from 'lucide-react';
 
-const allProducts = Object.values(productsByCategory).flat();
+const allProducts = Object.values(productsByCategory).flat().sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
 export default function CatalogoPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -103,7 +103,7 @@ export default function CatalogoPage() {
                 key={product.id}
                 className="text-left flex flex-col group overflow-hidden"
               >
-                <CardHeader className="p-0 overflow-hidden relative aspect-square">
+                <CardHeader className="p-0 overflow-hidden relative">
                   {image && (
                     <Image
                       src={image.imageUrl}
@@ -111,7 +111,7 @@ export default function CatalogoPage() {
                       width={500}
                       height={500}
                       data-ai-hint={image.imageHint}
-                      className="w-full h-full object-cover"
+                      className="w-full h-auto object-contain"
                     />
                   )}
                 </CardHeader>
