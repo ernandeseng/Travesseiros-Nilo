@@ -48,7 +48,7 @@ export function Footer() {
               Contato
             </h4>
             <ul className="space-y-2 text-sm text-white/70">
-              <li>Telefone: (16) 99786-4805</li>
+              <li>Telefone: (61) 8312-9264</li>
               <li>Email: nilotravesseiros@gmail.com</li>
               <li>Endereço: Itápolis - SP</li>
             </ul>
@@ -74,7 +74,7 @@ export function Footer() {
                 size="icon"
                 className="text-white/70 hover:bg-white/10 hover:text-primary"
               >
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com/travesseirosnilo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <Instagram />
                 </a>
               </Button>

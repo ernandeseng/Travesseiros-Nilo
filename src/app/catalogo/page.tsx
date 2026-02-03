@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useMemo } from 'react';
@@ -104,7 +103,7 @@ export default function CatalogoPage() {
                 key={product.id}
                 className="text-left flex flex-col group overflow-hidden"
               >
-                <CardHeader className="p-0 overflow-hidden">
+                <CardHeader className="p-0 overflow-hidden relative aspect-square">
                   {image && (
                     <Image
                       src={image.imageUrl}
@@ -112,7 +111,7 @@ export default function CatalogoPage() {
                       width={500}
                       height={500}
                       data-ai-hint={image.imageHint}
-                      className="w-full h-auto"
+                      className="w-full h-full object-cover"
                     />
                   )}
                 </CardHeader>
@@ -126,7 +125,7 @@ export default function CatalogoPage() {
                 </CardContent>
                 <CardFooter className="p-4 pt-0">
                   <Button asChild variant="default" size="sm" className="w-full">
-                    <a href="https://wa.me/5516997864805" target="_blank" rel="noopener noreferrer">Solicitar Orçamento</a>
+                    <a href="https://wa.me/556183129264" target="_blank" rel="noopener noreferrer">Solicitar Orçamento</a>
                   </Button>
                 </CardFooter>
               </Card>
