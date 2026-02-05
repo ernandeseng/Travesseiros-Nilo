@@ -49,8 +49,7 @@ export function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-white/70">
               <li>Telefone: (61) 8312-9264</li>
-              <li>Email: nilotravesseiros@gmail.com</li>
-              <li>Endereço: Itápolis - SP</li>
+              <li>Endereço: R. Oliveiros Soares Maia, 155, Brejo do Cruz - PB</li>
             </ul>
           </div>
 
